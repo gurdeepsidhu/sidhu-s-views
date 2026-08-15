@@ -1,0 +1,12 @@
+backup_iteration2/
+backup_original/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
+brain/
+artifacts/
+*.log
+node_modules/
+.env

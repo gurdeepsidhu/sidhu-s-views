@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <script>
+    (function() {
+      var key = 'sidhu_v11_cache_purged';
+      if (!localStorage.getItem(key)) {
+        localStorage.setItem(key, 'true');
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function(regs) {
+            for (var i = 0; i < regs.length; i++) regs[i].unregister();
+          });
+        }
+        if ('caches' in window) {
+          caches.keys().then(function(names) {
+            for (var i = 0; i < names.length; i++) caches.delete(names[i]);
+          });
+        }
+        window.location.reload(true);
+      }
+    })();
+  </script>
+  <title>Sidhu's Views | Life • Style • Creativity • Stories</title>
+  <meta name="description" content="A premium personal online magazine and creative space by Gurdeep Sidhu, exploring the intersection of lifestyle, style, crafting, storytelling, and digital experiments.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Swiper.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2c5e43">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Sidhu's Views">
+  
+  <!-- Link to External Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=2.0.1">
+  
+  <!-- JSON-LD Structured Data Schema (SEO Optimization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gurdeep Sidhu",
+    "url": "https://gurdeepsidhu.github.io/sidhus-views/",
+    "sameAs": [],
+    "jobTitle": "Creative Director & Writer",
+    "description": "Founder and Creative Director of Sidhu's Views, a personal magazine exploring lifestyle, style, crafting, and storytelling."
+  }
+  </script>
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-heart"><i class="fas fa-feather-alt"></i></div>
+      <div class="preloader-text">SIDHU'S VIEWS</div>
+      <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+    </div>
+  </div>
+
+
+
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="logo navbar-brand" href="index.html">
+        <i class="fas fa-feather-alt"></i> SIDHU'S VIEWS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" 
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          
+          <!-- Explore Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              EXPLORE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
+              <li><a class="dropdown-item" href="explore.html">Explore All</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="explore.html#lifestyle">Lifestyle</a></li>
+              <li><a class="dropdown-item" href="explore.html#style">Fashion & Style</a></li>
+              <li><a class="dropdown-item" href="explore.html#decor">Home & Decor</a></li>
+              <li><a class="dropdown-item" href="explore.html#travel">Travel</a></li>
+              <li><a class="dropdown-item" href="explore.html#discoveries">Interesting Discoveries</a></li>
+            </ul>
+          </li>
+          
+          <!-- Create Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="createDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CREATE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="createDropdown">
+              <li><a class="dropdown-item" href="create.html">Create All</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="create.html#handmade">Handmade & Crochet</a></li>
+              <li><a class="dropdown-item" href="create.html#diy">DIY & Creativity</a></li>
+              <li><a class="dropdown-item" href="create.html#projects">Creative Projects</a></li>
+              <li><a class="dropdown-item" href="create.html#digital">Digital & AI</a></li>
+            </ul>
+          </li>
+          
+          <!-- Journal Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="journalDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              JOURNAL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="journalDropdown">
+              <li><a class="dropdown-item" href="journal.html">Journal Feed</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="journal.html#stories">My Stories</a></li>
+              <li><a class="dropdown-item" href="journal.html#thoughts">My Thoughts</a></li>
+              <li><a class="dropdown-item" href="journal.html#articles">Articles</a></li>
+              <li><a class="dropdown-item" href="journal.html#experiences">Experiences</a></li>
+            </ul>
+          </li>
+          
+          <!-- About Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ABOUT
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="about.html">About Gurdeep</a></li>
+              <li><a class="dropdown-item" href="journey.html">My Journey</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- EDITORIAL HERO SECTION -->
+  <section id="hero" class="hero" style="background: var(--light); padding: 180px 0 100px;">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Text Composition -->
+        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1200" style="padding-right: 40px;">
+          <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 3px; color: var(--gray); display: block; margin-bottom: 30px;">A Personal Journal & Studio</span>
+          <h1 style="font-family: 'Cormorant Garamond', serif; font-size: 85px; font-weight: 300; color: var(--dark); line-height: 0.95; letter-spacing: -2px; margin-bottom: 30px;">SIDHU'S<br>VIEWS</h1>
+          <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: var(--gray); line-height: 1.9; margin-bottom: 45px; max-width: 380px;">
+            A curated digital chronicle exploring the intersection of slow living, sartorial aesthetics, tactile fiber crafts, and creative computing.
+          </p>
+          <a href="explore.html" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: var(--dark); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid rgba(28, 27, 26, 0.3); transition: var(--transition);">Enter the World</a>
+        </div>
+        
+        <!-- Asymmetric Image Composition -->
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1200">
+          <div style="width: 100%; display: flex; justify-content: flex-end;">
+            <img src="images/hero_decor.jpg" alt="Warm minimal living room" style="width: 100%; max-width: 650px; height: auto; object-fit: cover; display: block; filter: brightness(0.95);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATISTICS CARD GRID (STATS) -->
+  <!-- FEATURED STORY: OPEN LAYOUT -->
+  <section id="featured-story" style="padding: 120px 0; background: var(--white);">
+    <div class="container">
+      <div class="row g-0 align-items-center">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-duration="1000">
+          <div style="width: 100%; overflow: hidden;">
+            <img src="images/craft_crochet.jpg" alt="Crafting crochet aesthetic" style="width: 100%; height: auto; object-fit: cover; display: block; filter: brightness(0.96);">
+          </div>
+        </div>
+        <div class="col-lg-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" style="padding-left: 60px;">
+          <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9px; text-transform: uppercase; letter-spacing: 2px; color: var(--secondary); display: block; margin-bottom: 20px;">Featured Essay &bull; Craft</span>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 400; color: var(--dark); line-height: 1.1; margin-bottom: 25px;">The Architecture of Quiet: Spaces for Slow Living</h2>
+          <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: var(--gray); line-height: 1.9; margin-bottom: 35px;">
+            In an age defined by constant digital stimulation, how do we curate our homes to foster peace and creativity? Exploring layout patterns, intentional textures, and tactile crafts that turn rooms into sanctuaries.
+          </p>
+          <a href="journal.html" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: var(--dark); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid rgba(28, 27, 26, 0.3); transition: var(--transition);">Read Full Essay</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- THE JOURNAL (LATEST STORIES) -->
+  <section id="latest-stories" style="padding: 120px 0; background: var(--light);">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-12" data-aos="fade-up">
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; color: var(--dark); border-bottom: 1px solid rgba(28, 27, 26, 0.1); padding-bottom: 20px; margin-bottom: 50px;">The Journal</h2>
+        </div>
+        
+        <!-- Editorial Item 1 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div style="padding-right: 40px;">
+            <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9px; text-transform: uppercase; letter-spacing: 2px; color: var(--gray); display: block; margin-bottom: 15px;">Lifestyle</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 400; color: var(--dark); line-height: 1.2; margin-bottom: 20px;"><a href="explore.html#lifestyle" style="text-decoration: none; color: inherit; transition: color 0.3s ease;">Rhythms of Intentionality: A Guide to Slow Mornings</a></h3>
+            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: var(--gray); line-height: 1.8;">Establishing early morning routines that connect physical craft preparation and focus exercises before coding.</p>
+          </div>
+        </div>
+        
+        <!-- Editorial Item 2 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div style="padding-right: 40px;">
+            <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9px; text-transform: uppercase; letter-spacing: 2px; color: var(--gray); display: block; margin-bottom: 15px;">Style</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 400; color: var(--dark); line-height: 1.2; margin-bottom: 20px;"><a href="explore.html#style" style="text-decoration: none; color: inherit; transition: color 0.3s ease;">Curating the Capsule Wardrobe</a></h3>
+            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: var(--gray); line-height: 1.8;">Curating timeless, durable capsule wardrobes based on linen fabrics and warm earth tones for a sustainable lifestyle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOME & DECOR -->
+  <section id="home-decor" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 order-lg-2" data-aos="fade-left">
+          <div class="editorial-placeholder" style="aspect-ratio: 16/10;">
+            <i class="fas fa-home fa-2x"></i>
+          </div>
+        </div>
+        <div class="col-lg-7 order-lg-1" data-aos="fade-right">
+          <span class="section-tag">Home & Styling</span>
+          <h2 class="display-6 serif-italic mt-2" style="font-family: 'Cormorant Garamond', serif; font-weight: 500; color: var(--primary);">Curating Intentional Havens</h2>
+          <p class="text-muted mt-3" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; line-height: 1.7;">
+            Explore room styling, decluttering, lighting setups, and DIY home projects designed to turn any space into a source of inspiration. Ready-to-implement guides that connect design values with everyday comfort.
+          </p>
+          <a href="explore.html#decor" class="btn btn-green mt-3">Explore Decor Guides <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HANDMADE & CROCHET -->
+  <section id="handmade-crochet" class="section-padding" style="background: var(--light); border-top: 1px solid rgba(197, 168, 128, 0.15);">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="editorial-placeholder" style="aspect-ratio: 1/1; max-width: 450px; margin: 0 auto;">
+            <i class="fas fa-scroll fa-2x"></i>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <span class="section-tag">Fiber Arts</span>
+          <h2 class="display-6 serif-italic mt-2" style="font-family: 'Cormorant Garamond', serif; font-weight: 500; color: var(--primary);">Hands-on Fiber Crafting</h2>
+          <p class="text-muted mt-3" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; line-height: 1.7;">
+            Sidhu's Views showcases original wearable designs, detailed yarn selections, and stitch blueprints. We focus on mindful, slow crafting techniques that bring order and texture to the physical world.
+          </p>
+          <div class="project-meta-grid mt-4">
+            <span class="meta-badge"><strong>Focus:</strong> Slow Fashion</span>
+            <span class="meta-badge"><strong>Process:</strong> Pattern Stitching</span>
+            <span class="meta-badge"><strong>Materials:</strong> Natural Wool & Cotton</span>
+          </div>
+          <a href="create.html#handmade" class="btn btn-green mt-4">View Crochet Patterns <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THEMES: CREATE & EXPLORE -->
+  <section id="create-journal" style="padding: 120px 0; background: var(--white);">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Explore -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div style="padding-right: 40px; border-left: 1px solid rgba(28, 27, 26, 0.1); padding-left: 30px;">
+            <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9px; text-transform: uppercase; letter-spacing: 2px; color: var(--gray); display: block; margin-bottom: 20px;">01. Explore</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; color: var(--dark); margin-bottom: 20px;">The Aesthetic Lab</h3>
+            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: var(--gray); line-height: 1.8; margin-bottom: 30px;">
+              A curated collection of style files, interior design concepts, and visual discoveries that inspire a more beautiful daily life.
+            </p>
+            <a href="explore.html" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: var(--dark); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid rgba(28, 27, 26, 0.3); transition: var(--transition);">Explore Aesthetics</a>
+          </div>
+        </div>
+        <!-- Create -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div style="padding-right: 40px; border-left: 1px solid rgba(28, 27, 26, 0.1); padding-left: 30px;">
+            <span style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 9px; text-transform: uppercase; letter-spacing: 2px; color: var(--gray); display: block; margin-bottom: 20px;">02. Create</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; color: var(--dark); margin-bottom: 20px;">The Maker's Studio</h3>
+            <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14px; color: var(--gray); line-height: 1.8; margin-bottom: 30px;">
+              Documenting the physical process of making. From intricate fiber arts and tactile crafting to digital experimentation and coding play.
+            </p>
+            <a href="create.html" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: var(--dark); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid rgba(28, 27, 26, 0.3); transition: var(--transition);">Enter Studio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURATED FINDS -->
+  <section id="curated-finds" class="section-padding" style="background: var(--light); border-top: 1px solid rgba(197, 168, 128, 0.15);">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Future Shop</span>
+        <h2 class="heading">Curated Finds</h2>
+        <p class="section-sub">A preview of downloadable design assets, PDF crochet patterns, and handmade pieces coming soon.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- Product 1 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-4   text-center h-100 d-flex flex-column justify-content-between" style="-radius: 0px;">
+            <div>
+              <div class="editorial-placeholder mb-3" style="aspect-ratio: 1/1;">
+                <i class="fas fa-file-pdf fa-2x"></i>
+              </div>
+              <span class="small text-muted" style="letter-spacing: 1px; font-size: 10px; text-transform: uppercase;">Digital Pattern</span>
+              <h4 class="mt-2" style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--primary);">Classic Cotton Cardigan</h4>
+              <p class="text-muted small mt-2">Comprehensive stitch pattern PDF with sizing charts and materials instructions.</p>
+            </div>
+            <span class="badge bg-secondary py-2 mt-3" style="font-family:'Plus Jakarta Sans',sans-serif; letter-spacing:1px; font-size:10px;">COMING SOON</span>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-4   text-center h-100 d-flex flex-column justify-content-between" style="-radius: 0px;">
+            <div>
+              <div class="editorial-placeholder mb-3" style="aspect-ratio: 1/1;">
+                <i class="fas fa-couch fa-2x"></i>
+              </div>
+              <span class="small text-muted" style="letter-spacing: 1px; font-size: 10px; text-transform: uppercase;">Finished Goods</span>
+              <h4 class="mt-2" style="font-family: 'Cormorant Garamond', serif; font-size: 20px; color: var(--primary);">Minimalist Linen Pillowcase</h4>
+              <p class="text-muted small mt-2">Individually handmade from organic linen, featuring blind zippers and neutral styling tones.</p>
+            </div>
+            <span class="badge bg-secondary py-2 mt-3" style="font-family:'Plus Jakarta Sans',sans-serif; letter-spacing:1px; font-size:10px;">COMING SOON</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER SECTION -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-card" data-aos="fade-up">
+        <h3>Subscribe to the Letter</h3>
+        <p>Weekly curations of design inspiration, crochet guides, slow living reflections, and digital sandbox experiments. Quietly sent straight to your inbox.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Sidhu\'s Views!'); this.reset();">
+          <input type="email" class="newsletter-input" placeholder="Your email address" required aria-label="Email for newsletter">
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING BRAND STATEMENT -->
+  <div class="manifesto-blockquote" data-aos="fade-up">
+    <p>"Good design is a conversation between texture, utility, and modern code. Sidhu's Views is an open sandbox documenting this interplay."</p>
+    <span>— Gurdeep Sidhu, Editor</span>
+  </div>  
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <i class="fas fa-feather-alt"></i> SIDHU'S VIEWS
+          </div>
+          <p class="footer-desc">A premium personal online magazine and creative space by Gurdeep Sidhu, exploring the intersection of lifestyle, style, crafting, storytelling, and digital experiments.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+          <a href="explore.html"><i class="fas fa-chevron-right"></i> Explore</a>
+          <a href="create.html"><i class="fas fa-chevron-right"></i> Create</a>
+          <a href="journal.html"><i class="fas fa-chevron-right"></i> Journal</a>
+          <a href="about.html"><i class="fas fa-chevron-right"></i> About</a>
+        </div>
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-envelope"></i> contact@sidhusviews.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Chandigarh, India</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">© 2026 <strong>SIDHU'S VIEWS</strong>. All Rights Reserved. Designed with <i class="fas fa-heart" style="color:#d90429;"></i></p>
+  </footer>
+
+  <!-- THEME TOGGLE -->
+  <button id="darkModeToggle" class="dark-mode-btn" aria-label="Toggle Theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- FLOATING WIDGETS -->
+  <div class="floating-contact">
+    <a href="mailto:contact@sidhusviews.com" class="floating-btn phone-btn" aria-label="Email Gurdeep"><i class="fas fa-envelope"></i></a>
+    <a href="https://wa.me/9195601461999" class="floating-btn wa-btn" target="_blank" aria-label="WhatsApp Gurdeep"><i class="fab fa-whatsapp"></i></a>
+  </div>
+
+  <!-- JS SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
