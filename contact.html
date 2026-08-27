@@ -6,26 +6,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <script>
-    (function() {
-      var key = 'sidhu_v11_cache_purged';
-      if (!localStorage.getItem(key)) {
-        localStorage.setItem(key, 'true');
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.getRegistrations().then(function(regs) {
-            for (var i = 0; i < regs.length; i++) regs[i].unregister();
-          });
-        }
-        if ('caches' in window) {
-          caches.keys().then(function(names) {
-            for (var i = 0; i < names.length; i++) caches.delete(names[i]);
-          });
-        }
-        window.location.reload(true);
-      }
-    })();
-  </script>
-  <title>Contact Gurdeep Sidhu | Sidhu's Views</title>
+  <title>Contact | Sidhu's Views</title>
   <meta name="description" content="Get in touch with Gurdeep Sidhu for creative collaborations, crochet design queries, and writing feedback.">
   <meta name="robots" content="index, follow">
   

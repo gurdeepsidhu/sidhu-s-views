@@ -3537,14 +3537,29 @@ body.dark-mode .pwa-content strong { color: #f1f5f9; }
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 80px 20px;
+.search-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(250, 249, 245, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
 }
 
 .search-modal.active {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
@@ -3552,17 +3567,25 @@ body.dark-mode .pwa-content strong { color: #f1f5f9; }
   position: absolute;
   top: 30px;
   right: 40px;
-  background: none;
-  border: none;
-  font-size: 28px;
-  color: var(--primary);
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--dark);
   cursor: pointer;
+  z-index: 100001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: var(--transition);
 }
 
 .search-modal-close:hover {
   transform: rotate(90deg);
-  color: var(--secondary);
+  background: var(--secondary);
+  color: var(--white);
 }
 
 .search-container {
@@ -3757,3 +3780,250 @@ body.dark-mode .newsletter-input {
   background: #0d120e;
   color: var(--dark);
 }
+
+/* ==========================================
+   FULL PAGE BLURRED IMAGE WALLPAPER BACKGROUND
+   ========================================== */
+body {
+  background-color: #1a231c !important;
+}
+
+section, 
+.section-padding,
+.bg-light,
+.bg-white,
+header.hero,
+.hero,
+.main-wrapper {
+  background: transparent !important;
+}
+
+/* Full Page Blurred Image Wallpaper */
+.page-blur-background {
+  position: fixed;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  background-image: url('images/hero_decor.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(40px) brightness(0.82) saturate(140%);
+  -webkit-filter: blur(40px) brightness(0.82) saturate(140%);
+  z-index: -2;
+  pointer-events: none;
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+}
+
+/* Translucent Mood Overlay */
+.page-blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 20% 20%, rgba(42, 59, 44, 0.45), transparent 65%),
+              radial-gradient(circle at 80% 80%, rgba(181, 106, 86, 0.4), transparent 65%),
+              rgba(250, 249, 245, 0.55);
+  z-index: -1;
+  pointer-events: none;
+  transition: all 0.6s ease;
+}
+
+body.dark-mode .page-blur-background {
+  filter: blur(45px) brightness(0.45) saturate(150%);
+  -webkit-backdrop-filter: blur(45px) brightness(0.45) saturate(150%);
+}
+
+body.dark-mode .page-blur-overlay {
+  background: radial-gradient(circle at 20% 20%, rgba(20, 35, 24, 0.85), transparent 65%),
+              radial-gradient(circle at 80% 80%, rgba(40, 22, 18, 0.8), transparent 65%),
+              rgba(13, 18, 14, 0.8);
+}
+
+@keyframes floatOrb1 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(70px, 90px) scale(1.15); }
+  100% { transform: translate(-40px, 50px) scale(0.95); }
+}
+
+@keyframes floatOrb2 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-90px, -60px) scale(1.1); }
+  100% { transform: translate(50px, -100px) scale(0.9); }
+}
+
+@keyframes floatOrb3 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, -70px) scale(1.2); }
+  100% { transform: translate(-80px, 40px) scale(0.85); }
+}
+
+/* Glassmorphism Cards & Containers */
+.card,
+.story-card,
+.journal-card,
+.journal-entry-card,
+.contact-info-card,
+.sidebar-widget,
+.newsletter-card,
+.create-card,
+.about-hero-card,
+.gallery-item,
+.service-card,
+.blog-card,
+.review-card,
+.testimonial-card,
+.appointment-form,
+.explore-card {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.72) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 12px !important;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.card:hover,
+.story-card:hover,
+.journal-card:hover,
+.gallery-item:hover,
+.service-card:hover {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-color: rgba(194, 170, 124, 0.6) !important;
+  box-shadow: 0 25px 50px rgba(42, 59, 44, 0.12) !important;
+  transform: translateY(-5px);
+}
+
+body.dark-mode .card,
+body.dark-mode .story-card,
+body.dark-mode .journal-card,
+body.dark-mode .journal-entry-card,
+body.dark-mode .contact-info-card,
+body.dark-mode .sidebar-widget,
+body.dark-mode .newsletter-card,
+body.dark-mode .create-card,
+body.dark-mode .about-hero-card,
+body.dark-mode .gallery-item,
+body.dark-mode .service-card,
+body.dark-mode .blog-card {
+  background: rgba(18, 25, 20, 0.78) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35) !important;
+}
+
+body.dark-mode .card:hover,
+body.dark-mode .story-card:hover,
+body.dark-mode .journal-card:hover,
+body.dark-mode .gallery-item:hover {
+  background: rgba(24, 34, 27, 0.9) !important;
+  border-color: rgba(194, 170, 124, 0.4) !important;
+}
+
+/* Glass Navbar Scrolled State */
+#navbar.scrolled {
+  background: rgba(255, 255, 255, 0.82) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode #navbar.scrolled {
+  background: rgba(13, 18, 14, 0.85) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Top Reading Progress Bar */
+#reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
+  box-shadow: 0 0 10px rgba(181, 106, 86, 0.5);
+  z-index: 999999;
+  transition: width 0.1s ease-out;
+}
+
+/* Bookmark Icon Button Styles */
+.bookmark-btn {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray);
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 14px;
+}
+
+.bookmark-btn:hover,
+.bookmark-btn.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+  transform: scale(1.1);
+}
+
+body.dark-mode .bookmark-btn {
+  background: rgba(30, 42, 34, 0.8);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #a39f98;
+}
+
+body.dark-mode .bookmark-btn:hover,
+body.dark-mode .bookmark-btn.active {
+  background: var(--accent);
+  color: var(--dark);
+}
+
+/* Theme Toggle Button in Navbar */
+.nav-theme-toggle {
+  background: transparent;
+  border: none;
+  color: var(--dark);
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-theme-toggle:hover {
+  color: var(--secondary);
+  transform: rotate(15deg);
+}
+
+body.dark-mode .nav-theme-toggle {
+  color: var(--accent);
+}
+
+/* Bookmark Nav Badge */
+.bookmark-nav-badge {
+  font-size: 10px;
+  background: var(--secondary);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+

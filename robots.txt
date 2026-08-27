@@ -20,4 +20,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://gurdeepsidhu.github.io/sidhus-views/sitemap.xml
+Sitemap: https://gurdeepsidhu.github.io/sidhu-s-views/sitemap.xml

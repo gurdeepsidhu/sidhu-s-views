@@ -45,13 +45,13 @@ Do **NOT** upload the following folders and files to public hosting:
 ## 🚀 Deployment Instructions
 
 ### Option A: GitHub Pages (Recommended)
-Since the `sitemap.xml` and `robots.txt` files are already pre-configured for the custom URL `https://gurdeepsidhu.github.io/sidhus-views/`, deploying to GitHub Pages is extremely straightforward:
+Since the `sitemap.xml` and `robots.txt` files are already pre-configured for the custom URL `https://gurdeepsidhu.github.io/sidhu-s-views/`, deploying to GitHub Pages is extremely straightforward:
 1. Initialize a Git repository in the project folder (if not already done).
 2. Commit all the deployable files.
-3. Push to a repository named `sidhus-views` on your GitHub account `gurdeepsidhu`.
+3. Push to a repository named `sidhu-s-views` on your GitHub account `gurdeepsidhu`.
 4. Go to the repository **Settings** > **Pages**.
 5. Select the deployment branch (e.g. `main` or `master`) and directory (root `/`), then click **Save**.
-6. The website will be live in a few minutes at `https://gurdeepsidhu.github.io/sidhus-views/`.
+6. The website will be live in a few minutes at `https://gurdeepsidhu.github.io/sidhu-s-views/`.
 
 ### Option B: Netlify or Vercel
 1. Go to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).

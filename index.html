@@ -6,25 +6,6 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <script>
-    (function() {
-      var key = 'sidhu_v11_cache_purged';
-      if (!localStorage.getItem(key)) {
-        localStorage.setItem(key, 'true');
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.getRegistrations().then(function(regs) {
-            for (var i = 0; i < regs.length; i++) regs[i].unregister();
-          });
-        }
-        if ('caches' in window) {
-          caches.keys().then(function(names) {
-            for (var i = 0; i < names.length; i++) caches.delete(names[i]);
-          });
-        }
-        window.location.reload(true);
-      }
-    })();
-  </script>
   <title>Sidhu's Views | Life • Style • Creativity • Stories</title>
   <meta name="description" content="A premium personal online magazine and creative space by Gurdeep Sidhu, exploring the intersection of lifestyle, style, crafting, storytelling, and digital experiments.">
   <meta name="robots" content="index, follow">
@@ -62,7 +43,7 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Gurdeep Sidhu",
-    "url": "https://gurdeepsidhu.github.io/sidhus-views/",
+    "url": "https://gurdeepsidhu.github.io/sidhu-s-views/",
     "sameAs": [],
     "jobTitle": "Creative Director & Writer",
     "description": "Founder and Creative Director of Sidhu's Views, a personal magazine exploring lifestyle, style, crafting, and storytelling."

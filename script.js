@@ -418,15 +418,250 @@ function filterExplore(category) {
   if (buttons.length > 0) {
     buttons.forEach(btn => btn.classList.remove('active'));
     if (window.event && window.event.target) {
-      window.event.target.classList.add('active');
+      window.event.target.closest('button').classList.add('active');
     }
   }
 
-  sections.forEach(sec => {
-    if (category === 'all' || sec.getAttribute('data-category') === category) {
-      sec.style.display = 'block';
-    } else {
-      sec.style.display = 'none';
+  if (category === 'saved') {
+    const saved = getSavedBookmarks();
+    const savedTitles = saved.map(s => s.title.toLowerCase());
+    let matchCount = 0;
+    sections.forEach(sec => {
+      const titleEl = sec.querySelector('h1, h2, h3, h4');
+      const titleText = titleEl ? titleEl.innerText.trim().toLowerCase() : '';
+      const bmBtn = sec.querySelector('.bookmark-btn');
+      const isBookmarked = (bmBtn && bmBtn.classList.contains('active')) || savedTitles.includes(titleText);
+      
+      if (isBookmarked) {
+        sec.style.display = 'block';
+        matchCount++;
+      } else {
+        sec.style.display = 'none';
+      }
+    });
+  } else {
+    sections.forEach(sec => {
+      if (category === 'all' || sec.getAttribute('data-category') === category) {
+        sec.style.display = 'block';
+      } else {
+        sec.style.display = 'none';
+      }
+    });
+  }
+}
+
+/* ==========================================
+   AMBIENT BLUR, GLASSMORPHISM & READING UX
+   ========================================== */
+
+// 1. Ensure Full Page Blurred Image Wallpaper Background exists on every page
+document.addEventListener('DOMContentLoaded', () => {
+  if (!document.querySelector('.page-blur-background')) {
+    const blurBg = document.createElement('div');
+    blurBg.className = 'page-blur-background';
+    document.body.prepend(blurBg);
+  }
+  if (!document.querySelector('.page-blur-overlay')) {
+    const blurOverlay = document.createElement('div');
+    blurOverlay.className = 'page-blur-overlay';
+    document.body.prepend(blurOverlay);
+  }
+});
+
+// 2. Reading Progress Bar setup
+let progressBar = document.getElementById('reading-progress-bar');
+if (!progressBar) {
+  progressBar = document.createElement('div');
+  progressBar.id = 'reading-progress-bar';
+  document.body.prepend(progressBar);
+}
+
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  if (progressBar) {
+    progressBar.style.width = Math.min(100, Math.max(0, progress)) + '%';
+  }
+});
+
+// 3. Theme Switcher & Dark Glass Mode Initialization
+const savedTheme = localStorage.getItem('sidhu_theme') || 'light';
+if (savedTheme === 'dark') {
+  document.body.classList.add('dark-mode');
+}
+
+if (navMenuList && !document.getElementById('themeToggleBtn')) {
+  const themeLi = document.createElement('li');
+  themeLi.className = 'nav-item';
+  const isDark = document.body.classList.contains('dark-mode');
+  themeLi.innerHTML = `
+    <button class="nav-theme-toggle nav-link" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Toggle Glass Dark/Light Theme">
+      <i class="${isDark ? 'fas fa-sun' : 'fas fa-moon'}"></i>
+    </button>
+  `;
+  navMenuList.appendChild(themeLi);
+
+  const toggleBtn = document.getElementById('themeToggleBtn');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      document.body.classList.toggle('dark-mode');
+      const nowDark = document.body.classList.contains('dark-mode');
+      localStorage.setItem('sidhu_theme', nowDark ? 'dark' : 'light');
+      toggleBtn.querySelector('i').className = nowDark ? 'fas fa-sun' : 'fas fa-moon';
+    });
+  }
+}
+
+// 4. Bookmarks System Logic
+function getSavedBookmarks() {
+  try {
+    return JSON.parse(localStorage.getItem('sidhu_saved_bookmarks') || '[]');
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveBookmarks(bookmarks) {
+  localStorage.setItem('sidhu_saved_bookmarks', JSON.stringify(bookmarks));
+  updateBookmarkNavBadge();
+}
+
+function updateBookmarkNavBadge() {
+  const badge = document.getElementById('bookmarkCountBadge');
+  if (badge) {
+    const count = getSavedBookmarks().length;
+    badge.innerText = count;
+    badge.style.display = count > 0 ? 'inline-block' : 'none';
+  }
+}
+
+if (navMenuList && !document.getElementById('navBookmarkItem')) {
+  const bookmarkLi = document.createElement('li');
+  bookmarkLi.className = 'nav-item';
+  bookmarkLi.id = 'navBookmarkItem';
+  const savedCount = getSavedBookmarks().length;
+  bookmarkLi.innerHTML = `
+    <a class="nav-link" href="explore.html" title="Saved Bookmarks">
+      <i class="fas fa-bookmark" style="font-size: 13px;"></i>
+      <span class="bookmark-nav-badge" id="bookmarkCountBadge" style="${savedCount > 0 ? 'display:inline-block;' : 'display:none;'}">${savedCount}</span>
+    </a>
+  `;
+  navMenuList.appendChild(bookmarkLi);
+}
+
+// Initialize Bookmark buttons on story & journal cards
+document.addEventListener('DOMContentLoaded', () => {
+  const cardSelectors = [
+    '.story-card', '.journal-card', '.article-card', '.explore-card',
+    '.explore-item-section', '.service-card', '.blog-card', '.gallery-item',
+    '.create-card', '.about-hero-card'
+  ];
+
+  document.querySelectorAll(cardSelectors.join(', ')).forEach(card => {
+    if (!card.querySelector('.bookmark-btn')) {
+      const titleEl = card.querySelector('h1, h2, h3, h4, h5, .story-title, .journal-title');
+      if (!titleEl) return;
+      
+      const titleText = titleEl.innerText.trim();
+      if (!titleText || titleText.length < 3 || titleText.toLowerCase().includes('visual') || titleText.toLowerCase().includes('gallery')) return;
+      
+      const linkEl = card.querySelector('a');
+      const storyUrl = linkEl ? linkEl.getAttribute('href') : 'explore.html';
+      
+      const bmBtn = document.createElement('button');
+      bmBtn.className = 'bookmark-btn';
+      bmBtn.setAttribute('aria-label', `Bookmark ${titleText}`);
+      
+      const saved = getSavedBookmarks();
+      const isBookmarked = saved.some(b => b.title === titleText);
+      if (isBookmarked) bmBtn.classList.add('active');
+      
+      bmBtn.innerHTML = `<i class="${isBookmarked ? 'fas' : 'far'} fa-bookmark"></i>`;
+      
+      bmBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        let currentBookmarks = getSavedBookmarks();
+        const existsIdx = currentBookmarks.findIndex(b => b.title === titleText);
+        if (existsIdx > -1) {
+          currentBookmarks.splice(existsIdx, 1);
+          bmBtn.classList.remove('active');
+          bmBtn.querySelector('i').className = 'far fa-bookmark';
+        } else {
+          currentBookmarks.push({ title: titleText, url: storyUrl, date: new Date().toLocaleDateString() });
+          bmBtn.classList.add('active');
+          bmBtn.querySelector('i').className = 'fas fa-bookmark';
+        }
+        saveBookmarks(currentBookmarks);
+      });
+
+      card.style.position = 'relative';
+      bmBtn.style.position = 'absolute';
+      bmBtn.style.top = '15px';
+      bmBtn.style.right = '15px';
+      bmBtn.style.zIndex = '12';
+      card.appendChild(bmBtn);
     }
   });
+});
+
+// 5. Reading Soundscape Generator (Web Audio API Ambient Rain)
+let audioCtx = null;
+let noiseNode = null;
+let isAudioPlaying = false;
+
+function toggleAmbientSoundscape() {
+  const btn = document.getElementById('soundscapeBtn');
+  try {
+    if (!isAudioPlaying) {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      const bufferSize = 2 * audioCtx.sampleRate;
+      const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      const output = noiseBuffer.getChannelData(0);
+      let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
+      for (let i = 0; i < bufferSize; i++) {
+        let white = Math.random() * 2 - 1;
+        b0 = 0.99886 * b0 + white * 0.0555179;
+        b1 = 0.99332 * b1 + white * 0.0750759;
+        b2 = 0.96900 * b2 + white * 0.1538520;
+        b3 = 0.86650 * b3 + white * 0.3104856;
+        b4 = 0.55000 * b4 + white * 0.5329522;
+        b5 = -0.7616 * b5 - white * 0.0168980;
+        output[i] = b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362;
+        output[i] *= 0.015; // Soft gentle ambient rain noise level
+        b6 = white * 0.115926;
+      }
+      noiseNode = audioCtx.createBufferSource();
+      noiseNode.buffer = noiseBuffer;
+      noiseNode.loop = true;
+      noiseNode.connect(audioCtx.destination);
+      noiseNode.start();
+      isAudioPlaying = true;
+      if (btn) {
+        btn.innerHTML = '<i class="fas fa-volume-up me-1"></i> Rain Ambience On';
+        btn.classList.add('active');
+      }
+    } else {
+      if (noiseNode) {
+        noiseNode.stop();
+        noiseNode.disconnect();
+      }
+      isAudioPlaying = false;
+      if (btn) {
+        btn.innerHTML = '<i class="fas fa-volume-mute me-1"></i> Cozy Soundscape';
+        btn.classList.remove('active');
+      }
+    }
+  } catch (e) {
+    console.error('AudioContext error:', e);
+  }
 }
+
+

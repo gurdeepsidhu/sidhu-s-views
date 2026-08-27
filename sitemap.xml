@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/index.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/index.html</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/about.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/about.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/explore.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/explore.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/create.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/create.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/journal.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/journal.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/journey.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/journey.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gurdeepsidhu.github.io/sidhus-views/contact.html</loc>
+    <loc>https://gurdeepsidhu.github.io/sidhu-s-views/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
