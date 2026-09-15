@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Sidhu's Views | Life, Style, Crafting & Stories by Gurdeep Sidhu</title>
+  <meta name="description" content="A curated personal online magazine exploring lifestyle, aesthetic home decor, slow living crafts, crochet guides, travel visual diaries, and creative projects by Gurdeep Sidhu.">
+  <meta name="keywords" content="Sidhus Views, Gurdeep Sidhu, lifestyle blog, home decor budget India, beginner crochet guide, slow living, aesthetic room decor, creative writing">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Gurdeep Sidhu">
+  <link rel="canonical" href="https://gurdeepsidhu.github.io/sidhu-s-views/">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gurdeepsidhu.github.io/sidhu-s-views/">
+  <meta property="og:title" content="Sidhu's Views | Life, Style, Crafting & Stories">
+  <meta property="og:description" content="A curated online magazine exploring lifestyle, home decor, handmade crochet, travel, and creative projects by Gurdeep Sidhu.">
+  <meta property="og:image" content="https://gurdeepsidhu.github.io/sidhu-s-views/images/crochet_hero_guide.jpg">
+  
+  <!-- Fonts & Frameworks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2.0.1">
+
+  <style>
+    .hero-section {
+      padding: 100px 0 80px;
+      background: #faf8f5;
+      border-bottom: 1px solid rgba(197, 168, 128, 0.25);
+      text-align: center;
+    }
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(42px, 6vw, 72px);
+      font-weight: 500;
+      color: var(--primary);
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    .hero-sub {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      color: var(--gray);
+      max-width: 650px;
+      margin: 0 auto 30px;
+      line-height: 1.7;
+    }
+    .article-card {
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 6px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+    }
+    .article-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    }
+    .article-card img {
+      width: 100%;
+      aspect-ratio: 16/10;
+      object-fit: cover;
+    }
+    .article-card-body {
+      padding: 24px;
+    }
+    .article-card-category {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .article-card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--primary);
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+    .article-card-desc {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.65;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-heart"><i class="fas fa-feather-alt"></i></div>
+      <div class="preloader-text">SIDHU'S VIEWS</div>
+      <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- TAGLINE BANNER -->
+  <div class="emergency-banner">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <span class="emergency-text">
+        <i class="fas fa-feather-alt"></i> <strong>SIDHU'S VIEWS:</strong> Life &bull; Style &bull; Creativity &bull; Crafting &bull; Stories
+      </span>
+      <a href="explore.html" class="emergency-phone">
+        <i class="fas fa-compass"></i> Explore All Stories
+      </a>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="logo navbar-brand" href="index.html">
+        <i class="fas fa-feather-alt"></i> SIDHU'S VIEWS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" 
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="explore.html">EXPLORE</a></li>
+          <li class="nav-item"><a class="nav-link" href="explore.html#discoveries">CREATE</a></li>
+          <li class="nav-item"><a class="nav-link" href="explore.html#lifestyle">JOURNAL</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero-section">
+    <div class="container py-4">
+      <span class="section-tag" style="letter-spacing: 3px; font-size: 10px;" data-aos="fade-up">Personal Online Magazine</span>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">Life, Crafting &amp; Aesthetic Living</h1>
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="200">
+        Curated essays, slow living guides, handmade crafting tutorials, and aesthetic space design by Gurdeep Sidhu.
+      </p>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <a href="explore.html" class="btn btn-green me-2">Explore Stories <i class="fas fa-arrow-right ms-2"></i></a>
+        <a href="article-beginners-guide-crochet.html" class="btn btn-outline-primary">Read Latest Post</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURED ARTICLES SECTION -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5" data-aos="fade-up">
+        <span class="section-tag">Featured Guides</span>
+        <h2 class="heading" style="font-family: 'Cormorant Garamond', serif; font-size: 38px;">Latest Articles &amp; Insights</h2>
+        <p class="section-sub">Carefully crafted reads on slow living, handmade crafts, and intentional design.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        
+        <!-- ARTICLE 1: CROCHET -->
+        <div class="col-md-6 col-lg-5" data-aos="fade-up">
+          <article class="article-card">
+            <a href="article-beginners-guide-crochet.html">
+              <img src="images/crochet_hero_guide.jpg" alt="The Beginner's Guide to Cozy Crochet by Gurdeep Sidhu">
+            </a>
+            <div class="article-card-body">
+              <span class="article-card-category">Handmade &bull; Crafting Guide</span>
+              <h3 class="article-card-title">
+                <a href="article-beginners-guide-crochet.html" style="color: inherit; text-decoration: none;">
+                  The Beginner's Guide to Cozy Crochet: Essential Stitches &amp; Easy First Projects
+                </a>
+              </h3>
+              <p class="article-card-desc">
+                Discover the meditative art of crochet. Essential stitches, yarn choices, and 3 cozy afternoon projects to kickstart your handmade journey.
+              </p>
+              <a href="article-beginners-guide-crochet.html" class="btn btn-green btn-sm" style="padding: 8px 18px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;">
+                Read Full Guide <i class="fas fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- ARTICLE 2: BUDGET ROOM DECOR -->
+        <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="100">
+          <article class="article-card">
+            <a href="article-budget-room-decor.html">
+              <img src="images/budget_room_hero.jpg" alt="How to Make Your Room Look Aesthetic on a Budget">
+            </a>
+            <div class="article-card-body">
+              <span class="article-card-category">Home &bull; Budget Decor</span>
+              <h3 class="article-card-title">
+                <a href="article-budget-room-decor.html" style="color: inherit; text-decoration: none;">
+                  How to Make Your Room Look Aesthetic on a Budget (Under Rs 5000)
+                </a>
+              </h3>
+              <p class="article-card-desc">
+                Real budget room decor ideas that actually work in Indian homes—lighting, plants, wall art, textiles, scent, and spatial flow.
+              </p>
+              <a href="article-budget-room-decor.html" class="btn btn-green btn-sm" style="padding: 8px 18px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;">
+                Read Full Guide <i class="fas fa-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <i class="fas fa-feather-alt"></i> SIDHU'S VIEWS
+          </div>
+          <p class="footer-desc">A premium personal online magazine and creative space by Gurdeep Sidhu, exploring lifestyle, style, crafting, storytelling, and digital experiments.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
+          <a href="explore.html"><i class="fas fa-chevron-right"></i> Explore</a>
+          <a href="article-beginners-guide-crochet.html"><i class="fas fa-chevron-right"></i> Crochet Guide</a>
+          <a href="article-budget-room-decor.html"><i class="fas fa-chevron-right"></i> Room Decor Guide</a>
+        </div>
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-envelope"></i> hellosidhusviews.com@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> India</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">© 2026 <strong>SIDHU'S VIEWS</strong>. All Rights Reserved.</p>
+  </footer>
+
+  <!-- DARK MODE TOGGLE BUTTON -->
+  <button id="darkModeToggle" class="dark-mode-btn" aria-label="Toggle Theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
