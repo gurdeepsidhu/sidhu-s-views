@@ -69,7 +69,8 @@ function filterExplore(category) {
 
   const items = document.querySelectorAll('.explore-item-section');
   items.forEach(item => {
-    if (category === 'all' || item.getAttribute('data-category') === category) {
+    const itemCat = item.getAttribute('data-category') || '';
+    if (category === 'all' || itemCat.split(' ').includes(category)) {
       item.style.display = 'block';
     } else {
       item.style.display = 'none';
