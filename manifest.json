@@ -1,0 +1,21 @@
+{
+  "name": "Sidhu's Views",
+  "short_name": "Sidhu's Views",
+  "description": "Personal Online Magazine exploring Lifestyle, Crafting, Style, and Travel by Gurdeep Sidhu.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#2c5e43",
+  "icons": [
+    {
+      "src": "images/lifestyle_hero_morning.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/lifestyle_hero_morning.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
