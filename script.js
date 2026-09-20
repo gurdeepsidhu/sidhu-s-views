@@ -46,6 +46,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // 4. REGISTER SERVICE WORKER FOR PWA INSTALLATION
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(function() {
+      console.log('PWA Service Worker registered successfully');
+    }).catch(function(err) {
+      console.log('Service Worker registration failed:', err);
+    });
+  }
+
 });
 
 // 4. CATEGORY FILTERING FOR EXPLORE PAGE
