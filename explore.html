@@ -62,8 +62,8 @@
       <span class="emergency-text">
         <i class="fas fa-feather-alt"></i> <strong>SIDHU'S VIEWS:</strong> Life &bull; Style &bull; Creativity &bull; Stories
       </span>
-      <a href="about.html" class="emergency-phone">
-        <i class="fas fa-info-circle"></i> Learn More
+      <a href="journal.html" class="emergency-phone">
+        <i class="fas fa-feather-alt"></i> Read Journal
       </a>
     </div>
   </div>
@@ -104,12 +104,12 @@
               CREATE
             </a>
             <ul class="dropdown-menu" aria-labelledby="createDropdown">
-              <li><a class="dropdown-item" href="create.html">Create All</a></li>
+              <li><a class="dropdown-item" href="explore.html#discoveries">Create All</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="create.html#handmade">Handmade & Crochet</a></li>
-              <li><a class="dropdown-item" href="create.html#diy">DIY & Creativity</a></li>
-              <li><a class="dropdown-item" href="create.html#projects">Creative Projects</a></li>
-              <li><a class="dropdown-item" href="create.html#digital">Digital & AI</a></li>
+              <li><a class="dropdown-item" href="explore.html#discoveries">Handmade &amp; Crochet</a></li>
+              <li><a class="dropdown-item" href="explore.html#discoveries">DIY &amp; Creativity</a></li>
+              <li><a class="dropdown-item" href="explore.html#discoveries">Creative Projects</a></li>
+              <li><a class="dropdown-item" href="explore.html#discoveries">Digital &amp; AI</a></li>
             </ul>
           </li>
           
@@ -128,7 +128,7 @@
             </ul>
           </li>
           
-          <li class="nav-item"><a class="nav-link" href="about.html">PERSONAL</a></li>
+          <li class="nav-item"><a class="nav-link" href="explore.html#lifestyle">PERSONAL</a></li>
         </ul>
       </div>
     </div>
@@ -150,7 +150,43 @@
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center flex-wrap gap-2 mt-3" id="categoryFilters">
+      <!-- CATEGORY QUICK DIRECTORY GRID -->
+      <div class="row g-3 mt-4 text-start justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="p-3 bg-white rounded shadow-sm h-100 border border-light text-center">
+            <div class="fs-4 text-primary mb-1"><i class="fas fa-feather-alt"></i></div>
+            <strong class="d-block text-dark small" style="font-family:'Cormorant Garamond', serif; font-size:16px;">Journal &amp; Stories</strong>
+            <span class="text-muted d-block" style="font-size:11px;">Sunday Samosa &bull; Slow Mornings</span>
+            <a href="journal.html" class="btn btn-link btn-sm p-0 mt-1" style="font-size:11px; text-decoration:none;">View Journal <i class="fas fa-chevron-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 bg-white rounded shadow-sm h-100 border border-light text-center">
+            <div class="fs-4 text-primary mb-1"><i class="fas fa-paint-brush"></i></div>
+            <strong class="d-block text-dark small" style="font-family:'Cormorant Garamond', serif; font-size:16px;">Create &amp; Crafts</strong>
+            <span class="text-muted d-block" style="font-size:11px;">Beginner's Crochet Guide</span>
+            <a href="article-beginners-guide-crochet.html" class="btn btn-link btn-sm p-0 mt-1" style="font-size:11px; text-decoration:none;">Read Guide <i class="fas fa-chevron-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 bg-white rounded shadow-sm h-100 border border-light text-center">
+            <div class="fs-4 text-primary mb-1"><i class="fas fa-couch"></i></div>
+            <strong class="d-block text-dark small" style="font-family:'Cormorant Garamond', serif; font-size:16px;">Home &amp; Decor</strong>
+            <span class="text-muted d-block" style="font-size:11px;">Aesthetic Budget Room Decor</span>
+            <a href="article-budget-room-decor.html" class="btn btn-link btn-sm p-0 mt-1" style="font-size:11px; text-decoration:none;">Read Guide <i class="fas fa-chevron-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3 bg-white rounded shadow-sm h-100 border border-light text-center">
+            <div class="fs-4 text-primary mb-1"><i class="fas fa-sun"></i></div>
+            <strong class="d-block text-dark small" style="font-family:'Cormorant Garamond', serif; font-size:16px;">Mindful Lifestyle</strong>
+            <span class="text-muted d-block" style="font-size:11px;">The Slow Morning Ritual</span>
+            <a href="article-slow-morning-ritual.html" class="btn btn-link btn-sm p-0 mt-1" style="font-size:11px; text-decoration:none;">Read Article <i class="fas fa-chevron-right ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center flex-wrap gap-2 mt-4" id="categoryFilters">
         <button class="btn btn-outline-primary btn-sm active" onclick="filterExplore('all')">All Articles</button>
         <button class="btn btn-outline-primary btn-sm" onclick="filterExplore('stories')">My Stories</button>
         <button class="btn btn-outline-primary btn-sm" onclick="filterExplore('lifestyle')">Lifestyle</button>
@@ -236,15 +272,15 @@
             <span class="editorial-caps-label text-secondary mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Featured Guide &bull; Capsule Wardrobe</span>
             <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Capsule Wardrobe: Timeless, Practical &amp; Effortless</h3>
             <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">You don't need more clothes. You need clothes that work better together. Discover how to curate a timeless wardrobe with versatile essentials and natural fabrics.</p>
-            <a href="article-capsule-wardrobe.html" class="btn btn-green btn-sm" style="padding: 10px 22px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
-              Read Full Guide <i class="fas fa-arrow-right ms-2"></i>
+            <a href="article-slow-morning-ritual.html" class="btn btn-green btn-sm" style="padding: 10px 22px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+              Read Lifestyle Guide <i class="fas fa-arrow-right ms-2"></i>
             </a>
           </div>
         </div>
         <div class="col-md-6 order-md-1" data-aos="fade-right">
           <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-capsule-wardrobe.html" class="d-block overflow-hidden">
-              <img src="images/capsule_hero_wardrobe.jpg" alt="Neutral capsule wardrobe essentials on wooden hangers" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            <a href="article-slow-morning-ritual.html" class="d-block overflow-hidden">
+              <img src="images/lifestyle_hero_morning.jpg" alt="Neutral capsule wardrobe essentials on wooden hangers" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
             </a>
           </div>
         </div>
@@ -266,14 +302,14 @@
             <span class="editorial-caps-label text-secondary mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Featured Guide &bull; Interior Living</span>
             <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Art of Making a Home Feel Like You</h3>
             <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Because a beautiful home isn't a showroom. It is a place to breathe, rest, and feel at ease. Explore intentional decoration, natural light, and comfort.</p>
-            <a href="article-home-feel.html" class="btn btn-green btn-sm" style="padding: 10px 22px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+            <a href="article-budget-room-decor.html" class="btn btn-green btn-sm" style="padding: 10px 22px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
               Read Full Guide <i class="fas fa-arrow-right ms-2"></i>
             </a>
           </div>
         </div>
         <div class="col-md-6 order-md-1" data-aos="fade-right">
           <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-home-feel.html" class="d-block overflow-hidden">
+            <a href="article-budget-room-decor.html" class="d-block overflow-hidden">
               <img src="images/home_hero_living.jpg" alt="Warm sunlit living room with natural linen and wood" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
             </a>
           </div>
@@ -320,14 +356,14 @@
             <span class="editorial-caps-label text-secondary mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Featured Guide &bull; Himachal Pradesh</span>
             <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">Sainj Valley: The Quiet Himalayan Escape</h3>
             <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A slower, greener side of Himachal Pradesh—where pine forests, peaceful meadows and mountain silence invite you to simply slow down.</p>
-            <a href="article-sainj-valley.html" class="btn btn-green btn-sm" style="padding: 10px 22px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
-              Read Travel Guide <i class="fas fa-arrow-right ms-2"></i>
+            <a href="article-slow-morning-ritual.html" class="btn btn-green btn-sm" style="padding: 10px 22px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+              Read Travel Essay <i class="fas fa-arrow-right ms-2"></i>
             </a>
           </div>
         </div>
         <div class="col-md-6 order-md-1" data-aos="fade-right">
           <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-sainj-valley.html" class="d-block overflow-hidden">
+            <a href="article-slow-morning-ritual.html" class="d-block overflow-hidden">
               <img src="images/sainj_hero_shangarh.jpg" alt="Shangarh meadow in Sainj Valley, Himachal Pradesh" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
             </a>
           </div>
@@ -422,9 +458,9 @@
           <h3>Quick Links</h3>
           <a href="index.html"><i class="fas fa-chevron-right"></i> Home</a>
           <a href="explore.html"><i class="fas fa-chevron-right"></i> Explore</a>
-          <a href="create.html"><i class="fas fa-chevron-right"></i> Create</a>
+          <a href="explore.html#discoveries"><i class="fas fa-chevron-right"></i> Create</a>
           <a href="journal.html"><i class="fas fa-chevron-right"></i> Journal</a>
-          <a href="about.html"><i class="fas fa-chevron-right"></i> About</a>
+          <a href="explore.html#lifestyle"><i class="fas fa-chevron-right"></i> About</a>
         </div>
         <div class="footer-col">
           <h3>Contact Info</h3>
