@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gurdeepsidhu.github.io/sidhu-s-views/sitemap.xml
