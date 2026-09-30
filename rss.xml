@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Sidhu's Views</title>
+    <link>https://gurdeepsidhu.github.io/sidhu-s-views/</link>
+    <description>A curated personal online magazine exploring lifestyle, style, crafting, storytelling, and digital experiments by Gurdeep Sidhu.</description>
+    <language>en-us</language>
+    <atom:link href="https://gurdeepsidhu.github.io/sidhu-s-views/rss.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>How to Crochet an Easy Square Coaster: Beginner Step-by-Step Guide</title>
+      <link>https://gurdeepsidhu.github.io/sidhu-s-views/article-handmade-yarn-coasters.html</link>
+      <description>Make an aesthetic 4x4 inch cotton square coaster in under 45 minutes. Professional step-by-step pattern with exact stitch counts, US terminology, step photos, and wet blocking tips by Gurdeep Sidhu.</description>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 GMT</pubDate>
+      <guid>https://gurdeepsidhu.github.io/sidhu-s-views/article-handmade-yarn-coasters.html</guid>
+      <media:content url="https://gurdeepsidhu.github.io/sidhu-s-views/images/coaster_hero_yarn.jpg" medium="image" />
+      <enclosure url="https://gurdeepsidhu.github.io/sidhu-s-views/images/coaster_hero_yarn.jpg" length="942001" type="image/jpeg" />
+    </item>
+
+    <item>
+      <title>The Beginner's Guide to Cozy Crochet: Stitches, Hooks &amp; Easy Projects</title>
+      <link>https://gurdeepsidhu.github.io/sidhu-s-views/article-beginners-guide-crochet.html</link>
+      <description>Everything you need to start crocheting today. Learn essential stitches, how to choose hooks and yarn, and 3 beginner-friendly project ideas.</description>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <guid>https://gurdeepsidhu.github.io/sidhu-s-views/article-beginners-guide-crochet.html</guid>
+      <media:content url="https://gurdeepsidhu.github.io/sidhu-s-views/images/crochet_hero_guide.jpg" medium="image" />
+      <enclosure url="https://gurdeepsidhu.github.io/sidhu-s-views/images/crochet_hero_guide.jpg" length="914676" type="image/jpeg" />
+    </item>
+
+    <item>
+      <title>Aesthetic Room Decor on a Budget: Transforming Spaces for Under ₹5,000</title>
+      <link>https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-room-decor.html</link>
+      <description>Practical, stylish room decor ideas that fit real Indian homes. How to use warm lighting, indoor plants, texture, and DIY wall art without breaking the bank.</description>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <guid>https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-room-decor.html</guid>
+      <media:content url="https://gurdeepsidhu.github.io/sidhu-s-views/images/budget_room_hero.jpg" medium="image" />
+      <enclosure url="https://gurdeepsidhu.github.io/sidhu-s-views/images/budget_room_hero.jpg" length="829097" type="image/jpeg" />
+    </item>
+
+    <item>
+      <title>The Slow Morning Ritual: How 30 Intentional Minutes Can Transform Your Day</title>
+      <link>https://gurdeepsidhu.github.io/sidhu-s-views/article-slow-morning-ritual.html</link>
+      <description>Why rushing into your morning ruins focus, and how a simple 3-step quiet morning routine builds mental clarity and creativity.</description>
+      <pubDate>Sun, 27 Sep 2026 12:00:00 GMT</pubDate>
+      <guid>https://gurdeepsidhu.github.io/sidhu-s-views/article-slow-morning-ritual.html</guid>
+      <media:content url="https://gurdeepsidhu.github.io/sidhu-s-views/images/lifestyle_hero_morning.jpg" medium="image" />
+      <enclosure url="https://gurdeepsidhu.github.io/sidhu-s-views/images/lifestyle_hero_morning.jpg" length="803816" type="image/jpeg" />
+    </item>
+
+    <item>
+      <title>Creating a Cozy Reading Nook: Designing Your Home Sanctuary</title>
+      <link>https://gurdeepsidhu.github.io/sidhu-s-views/article-reading-nook-guide.html</link>
+      <description>How to turn an unused corner into a peaceful reading nook with soft armchair lighting, throw blankets, and side tables.</description>
+      <pubDate>Sat, 26 Sep 2026 12:00:00 GMT</pubDate>
+      <guid>https://gurdeepsidhu.github.io/sidhu-s-views/article-reading-nook-guide.html</guid>
+      <media:content url="https://gurdeepsidhu.github.io/sidhu-s-views/images/reading_nook_hero.jpg" medium="image" />
+      <enclosure url="https://gurdeepsidhu.github.io/sidhu-s-views/images/reading_nook_hero.jpg" length="861761" type="image/jpeg" />
+    </item>
+
+    <item>
+      <title>Whispers of Sainj Valley: A Hidden Paradise in Himachal</title>
+      <link>https://gurdeepsidhu.github.io/sidhu-s-views/article-sainj-valley.html</link>
+      <description>Escape the tourist crowds in Shangarh and Sainj Valley. Green meadows, ancient wooden temples, and quiet Himalayan homestays.</description>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 GMT</pubDate>
+      <guid>https://gurdeepsidhu.github.io/sidhu-s-views/article-sainj-valley.html</guid>
+      <media:content url="https://gurdeepsidhu.github.io/sidhu-s-views/images/sainj_hero_shangarh.jpg" medium="image" />
+      <enclosure url="https://gurdeepsidhu.github.io/sidhu-s-views/images/sainj_hero_shangarh.jpg" length="974830" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
