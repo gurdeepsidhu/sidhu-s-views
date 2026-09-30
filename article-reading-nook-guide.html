@@ -76,10 +76,19 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-          <li class="nav-item"><a class="nav-link active" href="explore.html">EXPLORE</a></li>
-          <li class="nav-item"><a class="nav-link" href="explore.html#discoveries">CREATE</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="explore.html" id="catDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CATEGORIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="catDropdown">
+              <li><a class="dropdown-item active" href="explore.html?cat=lifestyle"><i class="fas fa-leaf text-success me-2"></i> Lifestyle &amp; Mindful Living</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=crafts"><i class="fas fa-paint-brush text-warning me-2"></i> Handmade &amp; Crafts</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=decor"><i class="fas fa-couch text-danger me-2"></i> Home &amp; Decor</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=travel"><i class="fas fa-compass text-info me-2"></i> Travel &amp; Stories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="explore.html">EXPLORE ALL</a></li>
           <li class="nav-item"><a class="nav-link" href="journal.html">JOURNAL</a></li>
-          <li class="nav-item"><a class="nav-link" href="explore.html#lifestyle">PERSONAL</a></li>
         </ul>
       </div>
     </div>

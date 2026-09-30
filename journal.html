@@ -78,39 +78,19 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-          
-          <!-- Explore Dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              EXPLORE
+            <a class="nav-link dropdown-toggle" href="explore.html" id="catDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CATEGORIES
             </a>
-            <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
-              <li><a class="dropdown-item" href="explore.html">Explore All</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="explore.html#lifestyle">Lifestyle</a></li>
-              <li><a class="dropdown-item" href="explore.html#style">Fashion & Style</a></li>
-              <li><a class="dropdown-item" href="explore.html#decor">Home & Decor</a></li>
-              <li><a class="dropdown-item" href="explore.html#travel">Travel</a></li>
-              <li><a class="dropdown-item" href="explore.html#discoveries">Interesting Discoveries</a></li>
+            <ul class="dropdown-menu" aria-labelledby="catDropdown">
+              <li><a class="dropdown-item" href="explore.html?cat=lifestyle"><i class="fas fa-leaf text-success me-2"></i> Lifestyle &amp; Mindful Living</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=crafts"><i class="fas fa-paint-brush text-warning me-2"></i> Handmade &amp; Crafts</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=decor"><i class="fas fa-couch text-danger me-2"></i> Home &amp; Decor</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=travel"><i class="fas fa-compass text-info me-2"></i> Travel &amp; Stories</a></li>
             </ul>
           </li>
-          
-          <!-- Journal Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" id="journalDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              JOURNAL
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="journalDropdown">
-              <li><a class="dropdown-item" href="journal.html">Journal Feed</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#stories">My Stories</a></li>
-              <li><a class="dropdown-item" href="#thoughts">My Thoughts</a></li>
-              <li><a class="dropdown-item" href="#articles">Articles</a></li>
-              <li><a class="dropdown-item" href="#experiences">Experiences</a></li>
-            </ul>
-          </li>
-          
-          <li class="nav-item"><a class="nav-link" href="explore.html#lifestyle">PERSONAL</a></li>
+          <li class="nav-item"><a class="nav-link" href="explore.html">EXPLORE ALL</a></li>
+          <li class="nav-item"><a class="nav-link active" href="journal.html">JOURNAL</a></li>
         </ul>
       </div>
     </div>
@@ -242,6 +222,20 @@
 
       <div class="row g-4">
         <div class="col-md-4" data-aos="fade-up">
+          <div class="card border-0 shadow-sm overflow-hidden h-100">
+            <a href="article-handmade-yarn-coasters.html">
+              <img src="images/coaster_hero_yarn.jpg" class="card-img-top" alt="Handmade Yarn Coasters" style="aspect-ratio: 16/9; object-fit: cover;">
+            </a>
+            <div class="card-body p-4">
+              <span class="editorial-caps-label text-warning mb-2 d-block" style="font-size: 10px; letter-spacing: 2px;">Handmade &amp; Crafting &bull; DIY</span>
+              <h3 class="card-title" style="font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--primary);">Handmade Yarn Coasters</h3>
+              <p class="card-text text-muted small">Turn cotton yarn scraps into warm, absorbant coasters for tea mugs in 1 hour.</p>
+              <a href="article-handmade-yarn-coasters.html" class="btn btn-outline-primary btn-sm mt-2">Read Craft Guide <i class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <div class="card border-0 shadow-sm overflow-hidden h-100">
             <a href="article-reading-nook-guide.html">
               <img src="images/reading_nook_hero.jpg" class="card-img-top" alt="Reading Nook Guide" style="aspect-ratio: 16/9; object-fit: cover;">
