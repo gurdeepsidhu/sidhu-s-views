@@ -1,4 +1,4 @@
-const CACHE_NAME = "sidhus-views-cache-v6";
+const CACHE_NAME = "sidhus-views-cache-v7";
 const urlsToCache = [
   "./",
   "index.html",
@@ -11,6 +11,7 @@ const urlsToCache = [
   "article-sunday-samosa-memory.html",
   "article-sainj-valley.html",
   "article-reading-nook-guide.html",
+  "images/balcony_chai_details_v2.jpg",
   "style.css",
   "script.js",
   "manifest.json"
