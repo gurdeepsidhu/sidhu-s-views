@@ -1,7 +1,8 @@
-const CACHE_NAME = "sidhus-views-cache-v8";
+const CACHE_NAME = "sidhus-views-cache-v9";
 const urlsToCache = [
   "./",
   "index.html",
+  "about.html",
   "explore.html",
   "journal.html",
   "article-handmade-yarn-coasters.html",
