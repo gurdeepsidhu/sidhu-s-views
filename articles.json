@@ -1,0 +1,229 @@
+{
+  "siteUrl": "https://gurdeepsidhu.github.io/sidhu-s-views",
+  "siteName": "Sidhu's Views",
+  "author": {
+    "name": "Gurdeep Sidhu",
+    "url": "https://gurdeepsidhu.github.io/sidhu-s-views/about.html",
+    "email": "hellosidhusviews.com@gmail.com"
+  },
+  "staticPages": [
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/",
+      "file": "index.html",
+      "title": "Sidhu's Views | Life, Style, Creativity & Stories",
+      "changefreq": "daily",
+      "priority": "1.0",
+      "lastmod": "2026-09-30",
+      "indexable": true
+    },
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/explore.html",
+      "file": "explore.html",
+      "title": "Explore Stories & Discoveries | Sidhu's Views",
+      "changefreq": "weekly",
+      "priority": "0.8",
+      "lastmod": "2026-09-30",
+      "indexable": true
+    },
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/journal.html",
+      "file": "journal.html",
+      "title": "Journal & Personal Stories | Sidhu's Views",
+      "changefreq": "weekly",
+      "priority": "0.8",
+      "lastmod": "2026-09-30",
+      "indexable": true
+    },
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/about.html",
+      "file": "about.html",
+      "title": "About Gurdeep Sidhu | Sidhu's Views",
+      "changefreq": "monthly",
+      "priority": "0.8",
+      "lastmod": "2026-10-14",
+      "indexable": true
+    }
+  ],
+  "articles": [
+    {
+      "id": "article-budget-balcony-chai-corner",
+      "file": "article-budget-balcony-chai-corner.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-balcony-chai-corner.html",
+      "title": "The Balcony Chai Corner: Reclaiming Your 4x6 Sanctuary for Under ₹1,500",
+      "category": "decor",
+      "categoryLabel": "Home & Decor",
+      "pillar": 3,
+      "publishDate": "2026-10-14",
+      "lastmod": "2026-10-14",
+      "priority": "0.9",
+      "description": "A humorous, heartwarming guide by Gurdeep Sidhu on evicting laundry racks, outsmarting neighborhood pigeons, and building a cozy balcony chai haven under Rs 1,500.",
+      "heroImage": "images/balcony_chai_hero.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-budget-room-decor.html",
+        "article-slow-morning-ritual.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-highway-dhaba",
+      "file": "article-highway-dhaba.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-highway-dhaba.html",
+      "title": "Notes from a Highway Dhaba: Tea, Parathas & Life on the Open Road",
+      "category": "travel",
+      "categoryLabel": "Travel & Stories",
+      "pillar": 4,
+      "publishDate": "2026-09-30",
+      "lastmod": "2026-09-30",
+      "priority": "0.9",
+      "description": "A lighthearted, warm, and simple travel story about stopping at a Punjabi highway dhaba. Hot tandoori parathas, clay kulhad chai, woven cots under neem trees, and funny highway memories by Gurdeep Sidhu.",
+      "heroImage": "images/dhaba_hero_charpai_v5.jpg",
+      "readTime": "7 min read",
+      "relatedArticles": [
+        "article-sunday-samosa-memory.html",
+        "article-sainj-valley.html",
+        "article-slow-morning-ritual.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-handmade-yarn-coasters",
+      "file": "article-handmade-yarn-coasters.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-handmade-yarn-coasters.html",
+      "title": "How to Crochet an Easy Square Coaster: Beginner Step-by-Step Guide",
+      "category": "crafts",
+      "categoryLabel": "Handmade & Crafts",
+      "pillar": 2,
+      "publishDate": "2026-09-30",
+      "lastmod": "2026-09-30",
+      "priority": "0.9",
+      "description": "A clear, professional step-by-step tutorial for crocheting an aesthetic 4x4 square cotton coaster. Exact stitch counts, US terminology, step photos, and wet blocking tips by Gurdeep Sidhu.",
+      "heroImage": "images/coaster_hero_yarn.jpg",
+      "readTime": "6 min read",
+      "relatedArticles": [
+        "article-beginners-guide-crochet.html",
+        "article-budget-room-decor.html",
+        "article-slow-morning-ritual.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-beginners-guide-crochet",
+      "file": "article-beginners-guide-crochet.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-beginners-guide-crochet.html",
+      "title": "The Beginner's Guide to Cozy Crochet: Stitches, Yarns & Easy First Projects",
+      "category": "crafts",
+      "categoryLabel": "Handmade & Crafts",
+      "pillar": 2,
+      "publishDate": "2026-09-29",
+      "lastmod": "2026-09-30",
+      "priority": "0.9",
+      "description": "Master the art of crochet with our ultimate beginner guide. Learn essential stitches, how to choose yarn and hooks, and make 3 beautiful beginner projects step-by-step.",
+      "heroImage": "images/crochet_hero_guide.jpg",
+      "readTime": "12 min read",
+      "relatedArticles": [
+        "article-handmade-yarn-coasters.html",
+        "article-reading-nook-guide.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-budget-room-decor",
+      "file": "article-budget-room-decor.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-room-decor.html",
+      "title": "How to Make Your Room Look Aesthetic on a Budget (Under Rs 5000)",
+      "category": "decor",
+      "categoryLabel": "Home & Decor",
+      "pillar": 3,
+      "publishDate": "2026-09-28",
+      "lastmod": "2026-09-30",
+      "priority": "0.9",
+      "description": "Transform your room into an aesthetic, Instagram-worthy space without spending a fortune. Real budget room decor ideas under Rs 2000 to Rs 5000 that actually work in Indian homes — lighting, plants, wall art, textiles and more.",
+      "heroImage": "images/budget_room_hero.jpg",
+      "readTime": "9 min read",
+      "relatedArticles": [
+        "article-budget-balcony-chai-corner.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-reading-nook-guide",
+      "file": "article-reading-nook-guide.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-reading-nook-guide.html",
+      "title": "The Art of the Reading Nook: Creating a Quiet Haven at Home",
+      "category": "lifestyle",
+      "categoryLabel": "Lifestyle & Mindful Living",
+      "pillar": 1,
+      "publishDate": "2026-09-25",
+      "lastmod": "2026-09-30",
+      "priority": "0.8",
+      "description": "A warm, lighthearted guide by Gurdeep Sidhu on creating the ultimate cozy reading nook—armchairs, 2700K warm lighting, chai side tables, and bookshelf curation.",
+      "heroImage": "images/reading_nook_hero.jpg",
+      "readTime": "8 min read",
+      "relatedArticles": [
+        "article-slow-morning-ritual.html",
+        "article-sunday-samosa-memory.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-sainj-valley",
+      "file": "article-sainj-valley.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-sainj-valley.html",
+      "title": "Sainj Valley: The Quiet Himalayan Escape",
+      "category": "travel",
+      "categoryLabel": "Travel & Stories",
+      "pillar": 4,
+      "publishDate": "2026-09-25",
+      "lastmod": "2026-09-30",
+      "priority": "0.8",
+      "description": "Discover Sainj Valley & Shangarh Meadow in Himachal Pradesh—a slow travel guide to pine forests, Kathkuni temples, mountain tea, and Himalayan quietude.",
+      "heroImage": "images/sainj_hero_shangarh.jpg",
+      "readTime": "8 min read",
+      "relatedArticles": [
+        "article-slow-morning-ritual.html",
+        "article-sunday-samosa-memory.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-slow-morning-ritual",
+      "file": "article-slow-morning-ritual.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-slow-morning-ritual.html",
+      "title": "The Gentle Art of a Slow Morning: Simple Stories & Peaceful Rituals",
+      "category": "lifestyle",
+      "categoryLabel": "Lifestyle & Mindful Living",
+      "pillar": 1,
+      "publishDate": "2026-09-20",
+      "lastmod": "2026-09-30",
+      "priority": "0.8",
+      "description": "A simple, beautiful story about slow mornings, warm tea, quiet windows, and how 30 peaceful minutes can bring joy to your day. Written in clear, charming everyday English by Gurdeep Sidhu.",
+      "heroImage": "images/lifestyle_hero_morning.jpg",
+      "readTime": "8 min read",
+      "relatedArticles": [
+        "article-beginners-guide-crochet.html",
+        "article-budget-room-decor.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-sunday-samosa-memory",
+      "file": "article-sunday-samosa-memory.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-sunday-samosa-memory.html",
+      "title": "The Great Sunday Samosa Mystery: A Funny Childhood Memory",
+      "category": "travel",
+      "categoryLabel": "Travel & Stories",
+      "pillar": 4,
+      "publishDate": "2026-09-20",
+      "lastmod": "2026-09-30",
+      "priority": "0.8",
+      "description": "A hilarious, heartwarming Malgudi-style childhood memory about a Sunday morning, a missing bag of samosas, an angry family, and a brother who only cared about lunch. Written by Gurdeep Sidhu.",
+      "heroImage": "images/journal_samosa_hero.jpg",
+      "readTime": "6 min read",
+      "relatedArticles": [
+        "article-slow-morning-ritual.html"
+      ],
+      "indexable": true
+    }
+  ]
+}
