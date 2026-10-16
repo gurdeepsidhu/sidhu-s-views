@@ -15,6 +15,7 @@ const urlsToCache = [
   "article-sainj-valley.html",
   "article-slow-morning-ritual.html",
   "article-sunday-samosa-memory.html",
+  "article-sunday-samosa-memory-hi.html",
   "images/balcony_chai_details_v2.jpg",
   "style.css",
   "script.js",
