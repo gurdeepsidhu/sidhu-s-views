@@ -24,7 +24,15 @@ Every article exists with equal literary beauty and joy in both English and Hind
   - Seamlessly blend natural everyday English loanwords in Devanagari script (उदा: *अपार्टमेंट, बालकनी, ड्राइंग रैक, अमेज़न बॉक्स, फ्लोर सीटिंग, कटिंग चाय, फेयरी लाइट्स, पीस ट्रीटी, ऑब्सटेकल कोर्स, डेडलाइन्स, समोसे, लंच*).
   - Avoid artificial, archaic, or stiff textbook Hindi (उदा: "उपयोगिता क्षेत्र", "शाश्वत भौतिक नियम", "गोधूलि वेला", "कबाड़खाना" जैसी भारी भाषा से बचें)।
 
-## 4. Technical SEO & Bilingual Linking Rules
+## 4. Personal Memoirs & Authentic Nostalgia (90s India)
+- **Authentic Family Dynamic**: When Gurdeep shares real childhood memories, never invent characters (e.g. father on veranda) or fabricate routines. Strictly respect the real individuals involved (Mother, sisters, brother Raju).
+- **Accurate 90s Historical Reality**: Always depict the genuine 1990s environment:
+  - No mobile phones or screens; siblings actually played and talked together.
+  - Fast food was strictly not allowed on a daily or regular basis, and fast food was not a trend.
+  - Outside food (like hot samosas from halwai) was a very rare, special treat—never a weekly routine or rule.
+  - Because it was so rare, the anticipation and excitement among the children was immense and electrifying.
+
+## 5. Technical SEO & Bilingual Linking Rules
 - Both English and Hindi companion articles must include bidirectional `<link rel="alternate" hreflang="en" ...>`, `<link rel="alternate" hreflang="hi" ...>`, and `<link rel="alternate" hreflang="x-default" ...>` tags.
 - Both articles must have an on-page language switcher pill (`🇬🇧 Read in English` | `🇮🇳 हिंदी में पढ़ें`).
 - Both articles must be registered in `articles.json` and indexed in `sitemap.xml` and `rss.xml`.
