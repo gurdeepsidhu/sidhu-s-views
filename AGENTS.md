@@ -9,6 +9,7 @@ Sidhu's Views is an aesthetic, personal online magazine exploring slow living, b
 - **Author**: Gurdeep Sidhu
 - **Hindi Spelling**: **गुरदीप सिधू** (बड़ी 'ू' की मात्रा, बिना किसी आधे 'द' के).
 - **Gender**: Female / **लेखिका** (Always use लेखिका in Hindi, never लेखक; feminine past verbs: रही थी, आई थी, की थी).
+- **Hindi Byline & Bio Standard**: Use the smart hybrid format: **`लेखिका: गुरदीप सिधू (Gurdeep Sidhu)`** for bylines and author bio boxes to ensure cultural resonance, brand clarity, and searchability.
 
 ### 2. Literary Style: R.K. Narayan Observational Humor
 - Warm, gentle, Malgudi-style storytelling with witty observations on Indian family life, everyday quirks, and nostalgic moments that naturally bring a smile to readers' faces.

@@ -7,6 +7,7 @@
   - In Hindi: हमेशा **लेखिका** का उपयोग करें (कभी भी 'लेखक' नहीं)।
   - In English: "Written by Gurdeep Sidhu", "Creator & Founder of Sidhu's Views", "Female creator and editor".
   - Verbs in Hindi: स्त्रीलिंग क्रियाएं (उदा: "कोशिश कर रही थी", "बालकनी में ले आई", "बैठी थी")।
+  - Byline & Author Card Standard: **`लेखिका: गुरदीप सिधू (Gurdeep Sidhu)`** for seamless brand recognition and SEO.
 
 ## 2. Signature Literary Style: The R.K. Narayan Observational Humour
 All articles on Sidhu's Views must embody the warm, gentle, Malgudi-style storytelling of R.K. Narayan:
