@@ -46,6 +46,26 @@
   ],
   "articles": [
     {
+      "id": "article-budget-balcony-chai-corner-hi",
+      "file": "article-budget-balcony-chai-corner-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-balcony-chai-corner-hi.html",
+      "title": "बालकोनी चाय कॉर्नर: ₹1,500 के बजट में बनाएं 4x6 का सुकून भरा कोना",
+      "category": "decor",
+      "categoryLabel": "Home & Decor (हिंदी)",
+      "pillar": 3,
+      "publishDate": "2026-10-16",
+      "lastmod": "2026-10-16",
+      "priority": "0.9",
+      "description": "कपड़े सुखाने वाले स्टैंड को बेदखल करने, कबूतरों से शांति समझौता करने और भारतीय फ्लैटों में ₹1,500 के बजट में सुबह की चाय के लिए जादुई कोना तैयार करने का मजेदार किस्सा। लेखक: गुरदीप सिद्धू",
+      "heroImage": "images/balcony_chai_hero.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-budget-room-decor.html",
+        "article-slow-morning-ritual.html"
+      ],
+      "indexable": true
+    },
+    {
       "id": "article-budget-balcony-chai-corner",
       "file": "article-budget-balcony-chai-corner.html",
       "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-balcony-chai-corner.html",
