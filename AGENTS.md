@@ -23,6 +23,8 @@ Sidhu's Views is an aesthetic, personal online magazine exploring slow living, b
 ### 4. Personal Memoirs & Authentic Nostalgia
 - **Never fabricate family members or inject artificial routines**: When Gurdeep shares a personal real-life memory, never invent characters (e.g., father reading newspaper on veranda) or assume false weekly habits. Respect the actual family members involved (e.g. Mother, sisters, brother Raju).
 - **Accurate 90s Historical Context**: In 1990s Indian childhood stories, always capture the true screen-free atmosphere (no mobile phones, kids playing together), the reality of fast food (strictly not allowed daily, not a trend; outside treats like halwai samosas were rare, cherished events with sky-high sibling excitement).
+- **Household Context for Girls & Boys**: In Gurdeep's household stories, girls stayed comfortably indoors (chatting on the veranda, playing carrom or ludo, helping at home); they did NOT play gully cricket in the street. Gully cricket was played exclusively by her brother Raju with neighborhood boys.
+- **Dining Custom**: Family meals were never eaten inside the kitchen (rasoi). A cotton durrie was spread across the floor, and the family sat together on the durrie to eat.
 
 ### 5. Technical Publishing Standards
 - Always maintain bidirectional `hreflang` tags (`en`, `hi`, `x-default`).
