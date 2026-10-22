@@ -263,6 +263,145 @@
         "article-slow-morning-ritual.html"
       ],
       "indexable": true
+    },
+    {
+      "id": "article-highway-dhaba-hi",
+      "file": "article-highway-dhaba-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-highway-dhaba-hi.html",
+      "title": "हाईवे ढाबे के कुछ पन्ने: कड़क चाय, गरमा-गरम परांठे और खुली सड़क का सुकून",
+      "category": "travel",
+      "categoryLabel": "Travel & Stories (हिंदी)",
+      "pillar": 4,
+      "publishDate": "2026-09-30",
+      "lastmod": "2026-10-22",
+      "priority": "0.9",
+      "description": "एक हल्की-फुल्की, दिल को छू लेने वाली यात्रा कहानी: जब दोपहर में नीम के पेड़ तले खटिया पर बैठकर कुल्हड़ की कड़क अदरक चाय और मक्खन से लबालब परांठों ने हाईवे की सारी थकान मिटा दी। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/dhaba_hero_charpai_v5.jpg",
+      "readTime": "7 min read",
+      "relatedArticles": [
+        "article-sunday-samosa-memory-hi.html",
+        "article-sainj-valley-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-budget-room-decor-hi",
+      "file": "article-budget-room-decor-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-room-decor-hi.html",
+      "title": "कम बजट में कमरे को एस्थेटिक (Aesthetic) कैसे बनाएं (₹5,000 से कम में)",
+      "category": "decor",
+      "categoryLabel": "Home & Decor (हिंदी)",
+      "pillar": 3,
+      "publishDate": "2026-08-31",
+      "lastmod": "2026-10-22",
+      "priority": "0.9",
+      "description": "बिना फालतू खर्चे के अपने साधारण कमरे को बनाएं खूबसूरत और एस्थेटिक। भारतीय घरों के लिए ₹2,000 से ₹5,000 के भीतर काम करने वाले सच्चे और प्रैक्टिकल टिप्स। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/budget_room_hero.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-budget-balcony-chai-corner-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-slow-morning-ritual-hi",
+      "file": "article-slow-morning-ritual-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-slow-morning-ritual-hi.html",
+      "title": "धीमी सुबह का कोमल जादू: 30 शांत और सुकून भरे मिनट कैसे पूरे दिन को खुशहाल बना सकते हैं",
+      "category": "lifestyle",
+      "categoryLabel": "Lifestyle & Mindful Living (हिंदी)",
+      "pillar": 1,
+      "publishDate": "2026-09-20",
+      "lastmod": "2026-10-22",
+      "priority": "0.8",
+      "description": "धीमी सुबह, गर्म चाय, खिड़की से छनती धूप और बिना किसी हड़बड़ी के एक शांत दिल के साथ दिन की शुरुआत करने की एक मीठी और प्यारी कहानी। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/lifestyle_hero_morning.jpg",
+      "readTime": "7 min read",
+      "relatedArticles": [
+        "article-beginners-guide-crochet-hi.html",
+        "article-budget-room-decor-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-sainj-valley-hi",
+      "file": "article-sainj-valley-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-sainj-valley-hi.html",
+      "title": "सेंज वैली और शांघड़: हिमालय का वह शांत कोना जहां वक्त ठहर जाता है",
+      "category": "travel",
+      "categoryLabel": "Travel & Stories (हिंदी)",
+      "pillar": 4,
+      "publishDate": "2026-09-30",
+      "lastmod": "2026-10-22",
+      "priority": "0.8",
+      "description": "चीड़ के घने जंगल, पारंपरिक काठकुणी लकड़ी की वास्तुकला, हरे मखमली मैदान और सुबह की धुंध—हिमाचल प्रदेश की सेंज घाटी में एक धीमी और सुकून भरी यात्रा। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/sainj_hero_shangarh.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-highway-dhaba-hi.html",
+        "article-sunday-samosa-memory-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-reading-nook-guide-hi",
+      "file": "article-reading-nook-guide-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-reading-nook-guide-hi.html",
+      "title": "रीडिंग नुक की कला: घर में सुकून और किताबों का कोना कैसे बनाएं",
+      "category": "lifestyle",
+      "categoryLabel": "Lifestyle & Mindful Living (हिंदी)",
+      "pillar": 1,
+      "publishDate": "2026-09-30",
+      "lastmod": "2026-10-22",
+      "priority": "0.8",
+      "description": "हर घर में एक ऐसा कोना क्यों होना चाहिए जहां मोबाइल फोन ले जाना मना हो, चाय गर्म रहे और पुरानी किताबों का बाहें फैलाकर स्वागत हो। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/reading_nook_hero.jpg",
+      "readTime": "12 min read",
+      "relatedArticles": [
+        "article-slow-morning-ritual-hi.html",
+        "article-sunday-samosa-memory-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-beginners-guide-crochet-hi",
+      "file": "article-beginners-guide-crochet-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-beginners-guide-crochet-hi.html",
+      "title": "शुरुआती लोगों के लिए क्रोशिया (Crochet) गाइड: बुनियादी टांके, धागे का चुनाव और आसान प्रोजेक्ट्स",
+      "category": "crafts",
+      "categoryLabel": "Handmade & Crafts (हिंदी)",
+      "pillar": 2,
+      "publishDate": "2026-09-29",
+      "lastmod": "2026-10-22",
+      "priority": "0.9",
+      "description": "हाथ से बुनाई का ध्यानमग्न जादू सीखें: सही क्रोशिया हुक, धागे का चुनाव, 4 बुनियादी टांके और एक ही दोपहर में बनने वाले 3 आसान शुरुआती प्रोजेक्ट्स। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/crochet_hero_guide.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-handmade-yarn-coasters-hi.html",
+        "article-reading-nook-guide-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-handmade-yarn-coasters-hi",
+      "file": "article-handmade-yarn-coasters-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-handmade-yarn-coasters-hi.html",
+      "title": "हाथ से आसान चौकोर क्रोशिया कोस्टर कैसे बनाएं: शुरुआती लोगों के लिए स्टेप-बाय-स्टेप गाइड",
+      "category": "crafts",
+      "categoryLabel": "Handmade & Crafts (हिंदी)",
+      "pillar": 2,
+      "publishDate": "2026-09-30",
+      "lastmod": "2026-10-22",
+      "priority": "0.9",
+      "description": "4x4 इंच का खूबसूरत सूती चौकोर कोस्टर बनाने का स्पष्ट और आसान ट्यूटोरियल: फंदों की सही गिनती, स्टेप-बाय-स्टेप तस्वीरें और वेट ब्लॉकिंग के खास टिप्स। लेखिका: गुरदीप सिधू (Gurdeep Sidhu)",
+      "heroImage": "images/coaster_hero_yarn.jpg",
+      "readTime": "6 min read",
+      "relatedArticles": [
+        "article-beginners-guide-crochet-hi.html",
+        "article-budget-room-decor-hi.html"
+      ],
+      "indexable": true
     }
   ]
 }
