@@ -16,8 +16,18 @@ Sidhu's Views is an aesthetic, personal online magazine exploring slow living, b
 - Realistic details, relatable Indian homes, zero pretense.
 
 ### 3. Bilingual Parity Standard (English & Hinglish)
-- Every article must have complete parity between English and Hindi.
-- **Never a mechanical or pure textbook Hindi translation**: Use natural conversational **Hinglish** (modern Hindi woven with everyday English words written in Devanagari) to preserve charm, warmth, and easy readability.
+- **Mandatory Bilingual Publication**: Every future article published on Sidhu's Views MUST ALWAYS be created as a synchronized bilingual pair: an English edition (`article-[slug].html`) and a natural Hindi edition (`article-[slug]-hi.html`).
+- **Natural, Elegant Hindi (Strictly No Awkward Transliterations)**:
+  - Never phonetically transliterate English lifestyle/buzzwords into Devanagari (e.g., NEVER write "डीक्लटर", "एस्थेटिक" repeated excessively, "रीडिंग नुक", "वॉल मोमेंट", "विजुअल शोर", "ट्यूटोरियल").
+  - Always use natural, culturally grounded Hindi phrases:
+    - *Declutter / Decluttering* &rarr; "फालतू सामान की छंटाई (Decluttering)" / "कबाड़ और गैर-ज़रूरी सामान हटाना"
+    - *Aesthetic* &rarr; "खूबसूरत", "सलीकेदार", "शांत", "मनभावन", "आकर्षक"
+    - *Reading Nook* &rarr; "किताबों का कोना (Reading Nook)" / "रीडिंग कॉर्नर" / "पढ़ने का शांत कोना"
+    - *Accent Wall / Wall Moment* &rarr; "दीवार का एक खूबसूरत कोना (Accent Wall)"
+    - *Visual Noise / Clutter* &rarr; "आंखों को चुभने वाला बिखराव"
+    - *Tutorial* &rarr; "आसान विधि / गाइड (Step-by-step Guide)"
+  - When an English technical or SEO keyword is helpful, mention it gracefully in English/brackets alongside the genuine Hindi term (e.g., *फालतू सामान की छंटाई (Decluttering)*).
+- **Never a mechanical or pure textbook Hindi translation**: Use warm, conversational modern Hindi woven naturally with common everyday words.
 - **Identical Narrative Structure**: Keep every scene, character, comedic nuance, and itemized tip intact across both versions.
 
 ### 4. Personal Memoirs & Authentic Nostalgia
@@ -27,6 +37,8 @@ Sidhu's Views is an aesthetic, personal online magazine exploring slow living, b
 - **Dining Custom**: Family meals were never eaten inside the kitchen (rasoi). A cotton durrie was spread across the floor, and the family sat together on the durrie to eat.
 
 ### 5. Technical Publishing Standards
-- Always maintain bidirectional `hreflang` tags (`en`, `hi`, `x-default`).
-- Always include an on-page bilingual toggle switcher.
+- Always create both English and Hindi editions together.
+- Always include the top navigation bar toggle (`[ 🇮🇳 हिंदी में पढ़ें ]` on English / `[ 🇬🇧 Read in English ]` on Hindi) and the in-header bilingual badge pill.
+- Always maintain bidirectional `hreflang` tags (`en`, `hi`, `x-default`) and self-referencing canonical tags.
+- Always provide dual action buttons (`Read in English` + `🇮🇳 हिंदी में पढ़ें`) on `explore.html`, `index.html`, and `journal.html`.
 - Register all new articles in `articles.json` and run `python publish.py --validate` and `python publish.py --build`.
