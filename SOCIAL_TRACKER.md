@@ -2,13 +2,19 @@
 
 Last Updated: November 11, 2026
 
-This tracker records every post, story, thread, and pin shared across all external platforms (Medium, Reddit, Threads, Pinterest). Whenever an article is published or shared, this file is updated immediately.
+This tracker records every post, story, thread, and pin shared across all external platforms:
+- **Medium**: [`@gurdeepsidhu171`](https://medium.com/@gurdeepsidhu171)
+- **Reddit**: [`u/Ok_Fold_613`](https://www.reddit.com/user/Ok_Fold_613/)
+- **Threads**: [`@gurdeepsidhu171`](https://www.threads.net/@gurdeepsidhu171)
+- **Pinterest**: [`gurdeepsidhu171`](https://in.pinterest.com/gurdeepsidhu171/)
+
+Whenever an article is published or shared, this file is updated immediately.
 
 ---
 
 ## 📌 Master Article Syndication Status
 
-| # | Article Slug & Title | Category | Medium (`@gurdeepsidhu171`) | Reddit | Threads | Pinterest RSS (`gurdeepsidhu171`) |
+| # | Article Slug & Title | Category | Medium (`@gurdeepsidhu171`) | Reddit (`u/Ok_Fold_613`) | Threads | Pinterest RSS (`gurdeepsidhu171`) |
 | :- | :--- | :--- | :---: | :---: | :---: | :---: |
 | 1 | **3D Daisy Granny Square** (`article-crochet-daisy-granny-square.html`) | Crafts | ✅ Posted (Nov 11) | ⏳ Next (`r/crochet`) | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 2 | **Diwali / Festive Wardrobe** (`article-effortless-festive-wardrobe.html`) | Lifestyle | ⏳ Pending | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
@@ -56,3 +62,4 @@ This tracker records every post, story, thread, and pin shared across all extern
    - Import *Festive Wardrobe Styling* (`article-effortless-festive-wardrobe.html`).
 3. **Threads**:
    - Early winter morning chai & slow living thought with link.
+
