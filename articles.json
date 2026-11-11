@@ -46,6 +46,86 @@
   ],
   "articles": [
     {
+      "id": "article-crochet-daisy-granny-square-hi",
+      "file": "article-crochet-daisy-granny-square-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-crochet-daisy-granny-square-hi.html",
+      "title": "3D डेज़ी क्रोशिया ग्रैनी स्क्वायर कैसे बनाएं: स्टेप-बाय-स्टेप गाइड और पैटर्न",
+      "category": "crafts",
+      "categoryLabel": "Handmade & Crafts (हिंदी)",
+      "pillar": 2,
+      "publishDate": "2026-11-11",
+      "lastmod": "2026-11-11",
+      "priority": "0.9",
+      "description": "उभरी हुई 3D मखमली पंखुड़ियों, सेज ग्रीन कोनों और सलीकेदार बॉर्डर के साथ एक खूबसूरत फ्लोरल ग्रैनी स्क्वायर बनाने की मुकम्मल और आसान विधि।",
+      "heroImage": "images/daisy_square_hero.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-handmade-yarn-coasters-hi.html",
+        "article-beginners-guide-crochet-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-crochet-daisy-granny-square",
+      "file": "article-crochet-daisy-granny-square.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-crochet-daisy-granny-square.html",
+      "title": "How to Crochet a 3D Daisy Granny Square: Step-by-Step Tutorial & Pattern",
+      "category": "crafts",
+      "categoryLabel": "Handmade & Crafts",
+      "pillar": 2,
+      "publishDate": "2026-11-11",
+      "lastmod": "2026-11-11",
+      "priority": "0.9",
+      "description": "A clear, beginner-friendly step-by-step tutorial to crocheting a 3D Daisy Granny Square. Exact stitch counts, 12 popcorn petals, clean squaring technique, and blocking advice.",
+      "heroImage": "images/daisy_square_hero.jpg",
+      "readTime": "10 min read",
+      "relatedArticles": [
+        "article-handmade-yarn-coasters.html",
+        "article-beginners-guide-crochet.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-effortless-festive-wardrobe-hi",
+      "file": "article-effortless-festive-wardrobe-hi.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-effortless-festive-wardrobe-hi.html",
+      "title": "दिवाली स्टाइलिंग गाइड: बिना नए कपड़े खरीदे पाएं खूबसूरत फेस्टिव लुक",
+      "category": "lifestyle",
+      "categoryLabel": "Lifestyle & Mindful Living (हिंदी)",
+      "pillar": 1,
+      "publishDate": "2026-11-04",
+      "lastmod": "2026-11-04",
+      "priority": "0.9",
+      "description": "दिवाली पर बिना नए कपड़े खरीदे सबसे खूबसूरत और सलीकेदार दिखने की प्रैक्टिकल गाइड। मां की अलमारी का खजाना, री-स्टाइलिंग के 4 आसान तरीके और हर उम्र व बॉडी टाइप के लिए जरूरी टिप्स।",
+      "heroImage": "images/festive_wardrobe_hero.jpg",
+      "readTime": "11 min read",
+      "relatedArticles": [
+        "article-slow-morning-ritual-hi.html",
+        "article-budget-room-decor-hi.html"
+      ],
+      "indexable": true
+    },
+    {
+      "id": "article-effortless-festive-wardrobe",
+      "file": "article-effortless-festive-wardrobe.html",
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-effortless-festive-wardrobe.html",
+      "title": "Diwali Styling Guide: How to Look Festive & Elegant Without Buying New Clothes",
+      "category": "lifestyle",
+      "categoryLabel": "Lifestyle & Mindful Living",
+      "pillar": 1,
+      "publishDate": "2026-11-04",
+      "lastmod": "2026-11-04",
+      "priority": "0.9",
+      "description": "A practical, honest Diwali styling guide on restyling what you already own, raiding Mom's vintage almirah, and 4 simple formulas to look stunning for every age and body type.",
+      "heroImage": "images/festive_wardrobe_hero.jpg",
+      "readTime": "11 min read",
+      "relatedArticles": [
+        "article-slow-morning-ritual.html",
+        "article-budget-room-decor.html"
+      ],
+      "indexable": true
+    },
+    {
       "id": "article-budget-balcony-chai-corner-hi",
       "file": "article-budget-balcony-chai-corner-hi.html",
       "url": "https://gurdeepsidhu.github.io/sidhu-s-views/article-budget-balcony-chai-corner-hi.html",
