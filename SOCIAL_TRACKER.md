@@ -28,16 +28,21 @@ Whenever an article is published or shared, this file is updated immediately.
 | 10 | **The Gentle Art of a Slow Morning** (`article-slow-morning-ritual.html`) | Lifestyle | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ Posted (Sep 30) | ⚠️ **Re-posting (Title updated to English script)** | ✅ **Posted on Threads (Nov 11)** | 🔄 Auto-Syncing (rss.xml) |
 | 12 | **Udaipur on a Budget** (`article-udaipur-budget-travel-guide.html`) | Travel | ✅ Published (Nov 12) | ⏳ Queued (`r/travelindia`) | ⏳ Posting Now | 🔄 Auto-Syncing (rss.xml) |
+| 13 | **Cozy Winter Home Styling Under ₹2,000** (`article-cozy-winter-home-decor.html`) | Decor | ⏳ Queued Import | ⏳ Queued (`r/IndianHomeDecor`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
 
 ---
 
 ## 📅 Chronological Activity Log
 
 ### 12 November 2026
-1. **Medium (`@gurdeepsidhu171`)**:
+1. **Website Publication**:
+   - ✅ Published synchronized bilingual pair: *Cozy Winter Home Styling on a Budget Under ₹2,000* (`article-cozy-winter-home-decor.html` & `article-cozy-winter-home-decor-hi.html`).
+2. **Medium (`@gurdeepsidhu171`)**:
    - ✅ Published: *Udaipur on a Budget: The Realistic 3-Day Travel Guide to Lakes, Palaces & Hidden Alleys*
-2. **Threads (`@gurdeepsidhu171`)**:
+   - ⏳ Queued: *Cozy Winter Home Styling on a Budget*
+3. **Threads (`@gurdeepsidhu171`)**:
    - ⏳ Posting: Udaipur sunset & realistic budget travel guide.
+   - ⏳ Queued: Winter cozy home styling tips & warm lighting aesthetic.
 
 ### 11 November 2026
 1. **Medium (`@gurdeepsidhu171`)**:
