@@ -27,11 +27,17 @@ Whenever an article is published or shared, this file is updated immediately.
 | 9 | **Sainj Valley Escape** (`article-sainj-valley.html`) | Travel | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 10 | **The Gentle Art of a Slow Morning** (`article-slow-morning-ritual.html`) | Lifestyle | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ Posted (Sep 30) | ⚠️ **Re-posting (Title updated to English script)** | ✅ **Posted on Threads (Nov 11)** | 🔄 Auto-Syncing (rss.xml) |
-| 12 | **Udaipur on a Budget** (`article-udaipur-budget-travel-guide.html`) | Travel | ⏳ Ready to Import | ⏳ Queued (`r/travelindia`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
+| 12 | **Udaipur on a Budget** (`article-udaipur-budget-travel-guide.html`) | Travel | ✅ Published (Nov 12) | ⏳ Queued (`r/travelindia`) | ⏳ Posting Now | 🔄 Auto-Syncing (rss.xml) |
 
 ---
 
 ## 📅 Chronological Activity Log
+
+### 12 November 2026
+1. **Medium (`@gurdeepsidhu171`)**:
+   - ✅ Published: *Udaipur on a Budget: The Realistic 3-Day Travel Guide to Lakes, Palaces & Hidden Alleys*
+2. **Threads (`@gurdeepsidhu171`)**:
+   - ⏳ Posting: Udaipur sunset & realistic budget travel guide.
 
 ### 11 November 2026
 1. **Medium (`@gurdeepsidhu171`)**:
