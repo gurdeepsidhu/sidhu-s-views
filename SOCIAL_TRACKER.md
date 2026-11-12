@@ -26,7 +26,7 @@ Whenever an article is published or shared, this file is updated immediately.
 | 8 | **The Art of the Reading Nook** (`article-reading-nook-guide.html`) | Lifestyle | ⏳ Pending | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 9 | **Sainj Valley Escape** (`article-sainj-valley.html`) | Travel | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 10 | **The Gentle Art of a Slow Morning** (`article-slow-morning-ritual.html`) | Lifestyle | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
-| 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ Posted (Sep 30) | ✅ **Posted on `r/indiasocial` (Nov 11)** | ✅ **Posted on Threads (Nov 11)** | 🔄 Auto-Syncing (rss.xml) |
+| 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ Posted (Sep 30) | ⚠️ **Re-posting (Title updated to English script)** | ✅ **Posted on Threads (Nov 11)** | 🔄 Auto-Syncing (rss.xml) |
 | 12 | **Udaipur on a Budget** (`article-udaipur-budget-travel-guide.html`) | Travel | ⏳ Ready to Import | ⏳ Queued (`r/travelindia`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
 
 ---
@@ -38,8 +38,8 @@ Whenever an article is published or shared, this file is updated immediately.
    - ✅ Published: *How to Crochet a 3D Daisy Granny Square: Step-by-Step Tutorial & Pattern*  
      URL: `https://medium.com/@gurdeepsidhu171/how-to-crochet-a-3d-daisy-granny-square-step-by-step-tutorial-pattern-207e4a7253c0`
 2. **Reddit**:
-   - ✅ Published on **`r/indiasocial`**: *The Great Sunday Samosa Incident of the 90s: जब हलवाई का समोसा किसी त्योहार से कम नहीं होता था!*  
-     With photo & comment linking to `article-sunday-samosa-memory-hi.html`.
+   - ⚠️ **`r/indiasocial`**: *The Great Sunday Samosa Incident of the 90s* (Initial post removed by AutoMod due to Devanagari characters in title; updated to 100% English script for re-posting).
+     Photo & story with comment linking to `article-sunday-samosa-memory-hi.html`.
 3. **Threads**:
    - ✅ Published on **Threads**: 90s Sunday Samosa nostalgic hook with photo and website link to `article-sunday-samosa-memory-hi.html`.
 4. **Pinterest**:
