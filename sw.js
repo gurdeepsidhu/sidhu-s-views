@@ -1,10 +1,12 @@
-const CACHE_NAME = "sidhus-views-cache-v10";
+const CACHE_NAME = "sidhus-views-cache-v11";
 const urlsToCache = [
   "./",
   "index.html",
   "about.html",
   "explore.html",
   "journal.html",
+  "article-udaipur-budget-travel-guide-hi.html",
+  "article-udaipur-budget-travel-guide.html",
   "article-crochet-daisy-granny-square-hi.html",
   "article-crochet-daisy-granny-square.html",
   "article-effortless-festive-wardrobe-hi.html",
