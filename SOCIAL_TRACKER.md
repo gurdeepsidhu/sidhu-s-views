@@ -41,7 +41,7 @@ Whenever an article is published or shared, this file is updated immediately.
    - ✅ Master `sitemap.xml` submitted and verified for periodic automatic crawling.
 2. **Substack (`sidhusviews.substack.com`)**:
    - ✅ Official Substack publication launched: **Sidhu's Views** (`https://sidhusviews.substack.com`).
-   - ✅ Welcome / Launch Post published: *Welcome to Sidhu's Views: Slow Living, Warm Homes & Everyday Stories* linking directly to the main magazine.
+   - ✅ Welcome / Launch Post published: [*Welcome to Sidhu's Views: Slow Living, Warm Homes & Nostalgic Memories*](https://sidhusviews.substack.com/p/welcome-to-sidhus-views-slow-living) linking directly to the main magazine.
 
 ### 12 November 2026
 1. **Website Publication**:
