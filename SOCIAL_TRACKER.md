@@ -4,6 +4,7 @@ Last Updated: November 11, 2026
 
 This tracker records every post, story, thread, and pin shared across all external platforms:
 - **Medium**: [`@gurdeepsidhu171`](https://medium.com/@gurdeepsidhu171)
+- **Substack**: [`sidhusviews.substack.com`](https://sidhusviews.substack.com)
 - **Reddit**: [`u/Ok_Fold_613`](https://www.reddit.com/user/Ok_Fold_613/)
 - **Threads**: [`@gurdeepsidhu171`](https://www.threads.net/@gurdeepsidhu171)
 - **Pinterest**: [`gurdeepsidhu171`](https://in.pinterest.com/gurdeepsidhu171/)
@@ -33,6 +34,14 @@ Whenever an article is published or shared, this file is updated immediately.
 ---
 
 ## 📅 Chronological Activity Log
+
+### 14 November 2026
+1. **Google Search Console**:
+   - ✅ Priority indexing requested for *Udaipur on a Budget* (`article-udaipur-budget-travel-guide.html`).
+   - ✅ Master `sitemap.xml` submitted and verified for periodic automatic crawling.
+2. **Substack (`sidhusviews.substack.com`)**:
+   - ✅ Official Substack publication launched: **Sidhu's Views** (`https://sidhusviews.substack.com`).
+   - ✅ Welcome / Launch Post published: *Welcome to Sidhu's Views: Slow Living, Warm Homes & Everyday Stories* linking directly to the main magazine.
 
 ### 12 November 2026
 1. **Website Publication**:
