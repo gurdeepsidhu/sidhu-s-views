@@ -30,7 +30,7 @@ Whenever an article is published or shared, this file is updated immediately.
 | 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ EN (Sep 30) &amp; **HI (Nov 16)** | ✅ **Posted on r/Hindi (Nov 16)** | ✅ **EN (Nov 11) &amp; HI (Nov 16)** | 🔄 Auto-Syncing (rss.xml) |
 | 12 | **Udaipur on a Budget** (`article-udaipur-budget-travel-guide.html`) | Travel | ✅ Published (Nov 12) | ⏳ Queued (`r/travelindia`) | ⏳ Posting Now | 🔄 Auto-Syncing (rss.xml) |
 | 13 | **Cozy Winter Home Styling Under ₹2,000** (`article-cozy-winter-home-decor.html`) | Decor | ⏳ Queued Import | ⏳ Queued (`r/IndianHomeDecor`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
-| 14 | **Modern vs Traditional Indian Home** (`article-modern-vs-traditional-indian-home.html`) | Decor | ⏳ Queued Import | ⏳ Queued (`r/IndianHomeDecor`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
+| 14 | **एक परफेक्ट मकान से खूबसूरत घर तक / The Soulful Indian Home** (`article-modern-vs-traditional-indian-home-hi.html` & `article-modern-vs-traditional-indian-home.html`) | Decor | ⏳ Queued Import | ⏳ Queued (`r/IndianHomeDecor` / `r/indiasocial`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
 
 ---
 
