@@ -1,12 +1,12 @@
 # SOCIAL_TRACKER.md — Sidhu's Views Social Media & Syndication Tracker
 
-Last Updated: November 11, 2026
+Last Updated: November 16, 2026
 
 This tracker records every post, story, thread, and pin shared across all external platforms:
 - **Medium**: [`@gurdeepsidhu171`](https://medium.com/@gurdeepsidhu171)
 - **Substack**: [`sidhusviews.substack.com`](https://sidhusviews.substack.com)
-- **Reddit**: [`u/Ok_Fold_613`](https://www.reddit.com/user/Ok_Fold_613/)
-- **Threads**: [`@gurdeepsidhu171`](https://www.threads.net/@gurdeepsidhu171)
+- **Reddit**: [`u/Successful_Offer_230`](https://www.reddit.com/user/Successful_Offer_230/) (Connected to `sidhusviews` Gmail; formerly `u/Ok_Fold_613`)
+- **Threads**: [`@gurdeep.6303`](https://www.threads.com/@gurdeep.6303) (also `@gurdeepsidhu171`)
 - **Pinterest**: [`gurdeepsidhu171`](https://in.pinterest.com/gurdeepsidhu171/)
 
 Whenever an article is published or shared, this file is updated immediately.
@@ -15,7 +15,7 @@ Whenever an article is published or shared, this file is updated immediately.
 
 ## 📌 Master Article Syndication Status
 
-| # | Article Slug & Title | Category | Medium (`@gurdeepsidhu171`) | Reddit (`u/Ok_Fold_613`) | Threads | Pinterest RSS (`gurdeepsidhu171`) |
+| # | Article Slug & Title | Category | Medium (`@gurdeepsidhu171`) | Reddit (`u/Successful_Offer_230`) | Threads | Pinterest RSS (`gurdeepsidhu171`) |
 | :- | :--- | :--- | :---: | :---: | :---: | :---: |
 | 1 | **3D Daisy Granny Square** (`article-crochet-daisy-granny-square.html`) | Crafts | ✅ Posted (Nov 11) | ⏳ Next (`r/crochet`) | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 2 | **Diwali / Festive Wardrobe** (`article-effortless-festive-wardrobe.html`) | Lifestyle | ⏳ Pending | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
@@ -27,13 +27,30 @@ Whenever an article is published or shared, this file is updated immediately.
 | 8 | **The Art of the Reading Nook** (`article-reading-nook-guide.html`) | Lifestyle | ⏳ Pending | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 9 | **Sainj Valley Escape** (`article-sainj-valley.html`) | Travel | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
 | 10 | **The Gentle Art of a Slow Morning** (`article-slow-morning-ritual.html`) | Lifestyle | ✅ Posted (Sep 30) | ⏳ Pending | ⏳ Pending | 🔄 Auto-Syncing (rss.xml) |
-| 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ Posted (Sep 30) | ⚠️ **Re-posting (Title updated to English script)** | ✅ **Posted on Threads (Nov 11)** | 🔄 Auto-Syncing (rss.xml) |
+| 11 | **The Great Sunday Samosa Incident** (`article-sunday-samosa-memory.html`) | Travel / Nostalgia | ✅ EN (Sep 30) &amp; **HI (Nov 16)** | ✅ **Posted on r/Hindi (Nov 16)** | ✅ **EN (Nov 11) &amp; HI (Nov 16)** | 🔄 Auto-Syncing (rss.xml) |
 | 12 | **Udaipur on a Budget** (`article-udaipur-budget-travel-guide.html`) | Travel | ✅ Published (Nov 12) | ⏳ Queued (`r/travelindia`) | ⏳ Posting Now | 🔄 Auto-Syncing (rss.xml) |
 | 13 | **Cozy Winter Home Styling Under ₹2,000** (`article-cozy-winter-home-decor.html`) | Decor | ⏳ Queued Import | ⏳ Queued (`r/IndianHomeDecor`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
+| 14 | **Modern vs Traditional Indian Home** (`article-modern-vs-traditional-indian-home.html`) | Decor | ⏳ Queued Import | ⏳ Queued (`r/IndianHomeDecor`) | ⏳ Queued | 🔄 Auto-Syncing (rss.xml) |
 
 ---
 
 ## 📅 Chronological Activity Log
+
+### 18 November 2026
+1. **Website Publication & Core Architecture Upgrade**:
+   - ✅ Published synchronized bilingual pair: *So-Called "Modern" vs Traditional Indian Home: Why We Turned Our Homes Into Museums (And How to Bring Real Warmth Back for ₹0)* (`article-modern-vs-traditional-indian-home.html` & `article-modern-vs-traditional-indian-home-hi.html`).
+   - ✅ Complete 5-Pillar Category Architecture Upgrade implemented across `articles.json`, `explore.html`, `journal.html`, `index.html`, and `script.js` (Home & Decor, Handmade & Crafts, Journal & Nostalgia, Slow Living & Habits, Travel & Escapes).
+   - ✅ Validation passed with 0 errors across 4 pages and 28 articles (32 URLs in sitemap).
+
+### 16 November 2026
+1. **Substack (`sidhusviews.substack.com`)**:
+   - ✅ Published: [*The Great Sunday Samosa Incident of the 90s (90s के संडे के समोसे और वो मासूम सवाल)*](https://sidhusviews.substack.com/p/the-great-sunday-samosa-incident) featuring the authentic 90s childhood memory, golden crispy samosa hero image, and dual-language readers' gateway.
+2. **Reddit (`u/Successful_Offer_230`)**:
+   - ✅ Published on **`r/Hindi`**: [*संडे के समोसे और नौ बजने का इंतज़ार — 90s के बचपन का एक संस्मरण*](https://www.reddit.com/r/Hindi/s/YwwVaqGW7G) via brand new dedicated `sidhusviews` account with flair `स्वरचित`.
+3. **Medium (`@gurdeepsidhu171`)**:
+   - ✅ Published Hindi Edition: [*संडे के समोसे और नौ बजने का इंतज़ार*](https://medium.com/@gurdeepsidhu171/%E0%A4%B8%E0%A4%82%E0%A4%A1%E0%A5%87-%E0%A4%95%E0%A5%87-%E0%A4%B8%E0%A4%AE%E0%A5%8B%E0%A4%B8%E0%A5%87-%E0%A4%94%E0%A4%B0-%E0%A4%A8%E0%A5%8C-%E0%A4%AC%E0%A4%9C%E0%A4%A8%E0%A5%87-%E0%A4%95%E0%A4%BE-%E0%A4%87%E0%A4%82%E0%A4%A4%E0%A4%9C%E0%A4%BC%E0%A4%BE%E0%A4%B0-93e322c10627) with tags `Hindi`, `Story`, `Nostalgia`, `Memoir`, `India`.
+4. **Threads (`@gurdeep.6303`)**:
+   - ✅ Published Hindi Nostalgia Post: [*90s के बचपन में रविवार की शाम और हलवाई के ताज़ा समोसे...*](https://www.threads.com/@gurdeep.6303/post/DfmR_-CGn-1) linking directly to website's Hindi edition.
 
 ### 14 November 2026
 1. **Google Search Console**:

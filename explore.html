@@ -103,10 +103,11 @@
               CATEGORIES
             </a>
             <ul class="dropdown-menu" aria-labelledby="catDropdown">
-              <li><a class="dropdown-item" href="explore.html?cat=lifestyle"><i class="fas fa-leaf text-success me-2"></i> Lifestyle &amp; Mindful Living</a></li>
-              <li><a class="dropdown-item" href="explore.html?cat=crafts"><i class="fas fa-paint-brush text-warning me-2"></i> Handmade &amp; Crafts</a></li>
               <li><a class="dropdown-item" href="explore.html?cat=decor"><i class="fas fa-couch text-danger me-2"></i> Home &amp; Decor</a></li>
-              <li><a class="dropdown-item" href="explore.html?cat=travel"><i class="fas fa-compass text-info me-2"></i> Travel &amp; Stories</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=crafts"><i class="fas fa-paint-brush text-warning me-2"></i> Handmade &amp; Crafts</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=journal"><i class="fas fa-feather-alt text-primary me-2"></i> Journal &amp; Nostalgia</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=lifestyle"><i class="fas fa-leaf text-success me-2"></i> Slow Living &amp; Habits</a></li>
+              <li><a class="dropdown-item" href="explore.html?cat=travel"><i class="fas fa-compass text-info me-2"></i> Travel &amp; Escapes</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link active" href="explore.html">EXPLORE ALL</a></li>
@@ -176,45 +177,47 @@
       </div>
 
       <div class="d-flex justify-content-center flex-wrap gap-2 mt-4" id="categoryFilters">
-        <button class="btn btn-outline-primary btn-sm active" data-cat="all" onclick="filterExplore('all')">All Articles (12)</button>
-        <button class="btn btn-outline-primary btn-sm" data-cat="lifestyle" onclick="filterExplore('lifestyle')"><i class="fas fa-leaf me-1 text-success"></i> Lifestyle &amp; Living</button>
-        <button class="btn btn-outline-primary btn-sm" data-cat="crafts" onclick="filterExplore('crafts')"><i class="fas fa-paint-brush me-1 text-warning"></i> Handmade &amp; Crafts</button>
+        <button class="btn btn-outline-primary btn-sm active" data-cat="all" onclick="filterExplore('all')">All Articles (14)</button>
         <button class="btn btn-outline-primary btn-sm" data-cat="decor" onclick="filterExplore('decor')"><i class="fas fa-couch me-1 text-danger"></i> Home &amp; Decor</button>
-        <button class="btn btn-outline-primary btn-sm" data-cat="travel" onclick="filterExplore('travel')"><i class="fas fa-compass me-1 text-info"></i> Travel &amp; Stories</button>
+        <button class="btn btn-outline-primary btn-sm" data-cat="crafts" onclick="filterExplore('crafts')"><i class="fas fa-paint-brush me-1 text-warning"></i> Handmade &amp; Crafts</button>
+        <button class="btn btn-outline-primary btn-sm" data-cat="journal" onclick="filterExplore('journal')"><i class="fas fa-feather-alt me-1 text-primary"></i> Journal &amp; Nostalgia</button>
+        <button class="btn btn-outline-primary btn-sm" data-cat="lifestyle" onclick="filterExplore('lifestyle')"><i class="fas fa-leaf me-1 text-success"></i> Slow Living &amp; Habits</button>
+        <button class="btn btn-outline-primary btn-sm" data-cat="travel" onclick="filterExplore('travel')"><i class="fas fa-compass me-1 text-info"></i> Travel &amp; Escapes</button>
       </div>
     </div>
   </section>
 
-  <!-- PILLAR 1: LIFESTYLE & LIVING -->
-  <section id="lifestyle" class="section-padding explore-item-section" data-category="lifestyle">
+  <!-- PILLAR 1: HOME & DECOR -->
+  <section id="decor" class="section-padding explore-item-section" data-category="decor">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
-        <span class="section-tag"><i class="fas fa-leaf text-success me-1"></i> Pillar 1</span>
-        <h2 class="heading">Lifestyle &amp; Mindful Living</h2>
-        <p class="section-sub">A study in balanced living, daily rituals, and intentional choices.</p>
+        <span class="section-tag"><i class="fas fa-couch text-danger me-1"></i> Pillar 1</span>
+        <h2 class="heading">Home &amp; Decor</h2>
+        <p class="section-sub">Aesthetic living spaces, creative styling, and budget transformations for Indian homes.</p>
       </div>
-      <!-- Article 0: Effortless Festive Wardrobe -->
+
+      <!-- Article 0: Modern vs Traditional Indian Home -->
       <div class="row g-4 align-items-center mb-5 pb-4" style="border-bottom: 1px solid rgba(0,0,0,0.06);">
         <div class="col-md-6" data-aos="fade-right">
           <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-effortless-festive-wardrobe.html" class="d-block overflow-hidden">
-              <img src="images/festive_wardrobe_hero.jpg" alt="Vintage silk dupatta, ivory kurta, mogra gajra, and glowing brass diyas" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            <a href="article-modern-vs-traditional-indian-home.html" class="d-block overflow-hidden">
+              <img src="images/declutter_hero_mindful_home.jpg" alt="So-Called Modern vs Traditional Indian Home" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
             </a>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-left">
           <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-success mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Lifestyle &bull; Everyday Style &bull; Mindful Living</span>
-            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">Diwali Styling Guide: How to Look Festive & Elegant Without Buying New Clothes</h3>
-            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A practical, honest Diwali styling guide by Gurdeep Sidhu on restyling what you already own, raiding Mom's vintage almirah, and 4 simple formulas to look stunning for every age and body type.</p>
+            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;"><i class="fas fa-couch me-1"></i> Featured Essay &bull; Zero-Cost Living</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">So-Called "Modern" vs Traditional Indian Home: Sanctuary or Museum?</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Why modern minimalist trends turn Indian homes into stressful, colorless museums. A witty Malgudi-style inquiry into living with real warmth, disciplined cleanliness, and ₹0 creative Indian decor.</p>
             <div class="mb-3">
-              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 11 min read</span>
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 10 min read &bull; Nov 2026</span>
             </div>
             <div class="d-flex flex-wrap gap-2">
-              <a href="article-effortless-festive-wardrobe.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+              <a href="article-modern-vs-traditional-indian-home.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
                 Read in English <i class="fas fa-arrow-right ms-1"></i>
               </a>
-              <a href="article-effortless-festive-wardrobe-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+              <a href="article-modern-vs-traditional-indian-home-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
                 🇮🇳 हिंदी में पढ़ें
               </a>
             </div>
@@ -222,21 +225,21 @@
         </div>
       </div>
 
-      <!-- Article 1: Slow Morning -->
-      <div class="row g-4 align-items-center">
+      <!-- Article 1: Cozy Winter Home Styling -->
+      <div class="row g-4 align-items-center mb-5">
         <div class="col-md-6 order-md-2" data-aos="fade-left">
           <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-success mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Lifestyle &bull; Mindful Living</span>
-            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Slow Morning Ritual: How 30 Intentional Minutes Can Transform Your Day</h3>
-            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Swap immediate phone notifications for morning stillness, warm tea, and quiet reflection. A gentle 30-minute framework for mental clarity and grounded daily focus.</p>
+            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;"><i class="fas fa-couch me-1"></i> Newest Guide &bull; Winter Styling</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">Cozy Winter Home Decor on a Budget: Indian Living Room Styling Under ₹2,000</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Transform chilly marble floors and harsh tubelights with practical Indian winter home decor under ₹2,000. Cotton durries with anti-slip care, warm 2700K lighting, brass accents, and safe kitchen spice scents.</p>
             <div class="mb-3">
-              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 8 min read</span>
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 8 min read &bull; Nov 2026</span>
             </div>
             <div class="d-flex flex-wrap gap-2">
-              <a href="article-slow-morning-ritual.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+              <a href="article-cozy-winter-home-decor.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
                 Read in English <i class="fas fa-arrow-right ms-1"></i>
               </a>
-              <a href="article-slow-morning-ritual-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+              <a href="article-cozy-winter-home-decor-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
                 🇮🇳 हिंदी में पढ़ें
               </a>
             </div>
@@ -244,13 +247,71 @@
         </div>
         <div class="col-md-6 order-md-1" data-aos="fade-right">
           <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-slow-morning-ritual.html" class="d-block overflow-hidden">
-              <img src="images/lifestyle_hero_morning.jpg" alt="Aesthetic slow morning tea ritual with journal and warm sunlight" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            <a href="article-cozy-winter-home-decor.html" class="d-block overflow-hidden">
+              <img src="images/winter_decor_hero_living_room.jpg" alt="Cozy winter home styling on a budget India" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
             </a>
           </div>
         </div>
       </div>
 
+      <!-- Article 2: Budget Room Decor -->
+      <div class="row g-4 align-items-center mt-4" style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 40px;">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
+            <a href="article-budget-room-decor.html" class="d-block overflow-hidden">
+              <img src="images/budget_room_hero.jpg" alt="Aesthetic budget room decor under Rs 5000 India" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="p-4 p-lg-5 bg-light h-100">
+            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Home &amp; Decor &bull; Budget Decor</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">How to Make Your Room Look Aesthetic on a Budget (Under Rs 5000)</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Real budget room decor ideas that actually work in Indian homes — lighting, plants, wall art, textiles, scent, and more. No expensive furniture, no contractors, no chaos.</p>
+            <div class="mb-3">
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 10 min read</span>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="article-budget-room-decor.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+                Read in English <i class="fas fa-arrow-right ms-1"></i>
+              </a>
+              <a href="article-budget-room-decor-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+                🇮🇳 हिंदी में पढ़ें
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article 3: Balcony Chai Corner -->
+      <div class="row g-4 align-items-center mt-4" style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 40px;">
+        <div class="col-md-6 order-md-2" data-aos="fade-left">
+          <div class="p-4 p-lg-5 bg-light h-100">
+            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;"><i class="fas fa-couch me-1"></i> Newest Guide &bull; Home &amp; Decor</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Balcony Chai Corner: Reclaiming Your 4x6 Sanctuary for Under ₹1,500</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A humorous, lighthearted guide on evicting drying racks, negotiating with neighborhood pigeons, and setting up cozy low floor seating with hardy plants and warm fairy lights.</p>
+            <div class="mb-3">
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 10 min read &bull; Oct 2026</span>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="article-budget-balcony-chai-corner.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+                Read in English <i class="fas fa-arrow-right ms-1"></i>
+              </a>
+              <a href="article-budget-balcony-chai-corner-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+                🇮🇳 हिंदी में पढ़ें
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1" data-aos="fade-right">
+          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
+            <a href="article-budget-balcony-chai-corner.html" class="d-block overflow-hidden">
+              <img src="images/balcony_chai_hero.jpg" alt="Aesthetic small balcony chai corner under Rs 1500" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+          </div>
+        </div>
+      </div>
+    
       <!-- Article 2: Reading Nook -->
       <div class="row g-4 align-items-center mt-4" style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 40px;">
         <div class="col-md-6" data-aos="fade-right">
@@ -262,7 +323,7 @@
         </div>
         <div class="col-md-6" data-aos="fade-left">
           <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-success mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Lifestyle &bull; Home Sanctuary</span>
+            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Home &bull; Home Sanctuary &bull; Decor</span>
             <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Art of the Reading Nook: Creating a Quiet Haven for Your Mind</h3>
             <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Why every home needs one dedicated corner where phones are forbidden, tea stays warm, and old paperbacks are welcomed with open arms. Written in warm R.K. Narayan storytelling style.</p>
             <div class="mb-3">
@@ -380,111 +441,124 @@
     </div>
   </section>
 
-  <!-- PILLAR 3: HOME & DECOR -->
-  <section id="decor" class="section-padding explore-item-section" data-category="decor">
+  
+  <!-- PILLAR 3: JOURNAL & NOSTALGIA -->
+  <section id="journal" class="section-padding explore-item-section" data-category="journal" style="background: var(--white); border-top: 1px solid rgba(0,0,0,.05);">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
-        <span class="section-tag"><i class="fas fa-couch text-danger me-1"></i> Pillar 3</span>
-        <h2 class="heading">Home &amp; Decor</h2>
-        <p class="section-sub">Designing spaces that tell stories, foster comfort, and reflect personality.</p>
+        <span class="section-tag"><i class="fas fa-feather-alt text-primary me-1"></i> Pillar 3</span>
+        <h2 class="heading">Journal &amp; Nostalgia</h2>
+        <p class="section-sub">Personal essays, 90s childhood memories, family quirks, and reflective storytelling by Gurdeep Sidhu.</p>
       </div>
 
-      <!-- Article 1: Cozy Winter Home Styling -->
-      <div class="row g-4 align-items-center mb-5">
-        <div class="col-md-6 order-md-2" data-aos="fade-left">
-          <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;"><i class="fas fa-couch me-1"></i> Newest Guide &bull; Winter Styling</span>
-            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">Cozy Winter Home Decor on a Budget: Indian Living Room Styling Under ₹2,000</h3>
-            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Transform chilly marble floors and harsh tubelights with practical Indian winter home decor under ₹2,000. Cotton durries with anti-slip care, warm 2700K lighting, brass accents, and safe kitchen spice scents.</p>
-            <div class="mb-3">
-              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 8 min read &bull; Nov 2026</span>
-            </div>
-            <div class="d-flex flex-wrap gap-2">
-              <a href="article-cozy-winter-home-decor.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
-                Read in English <i class="fas fa-arrow-right ms-1"></i>
-              </a>
-              <a href="article-cozy-winter-home-decor-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
-                🇮🇳 हिंदी में पढ़ें
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 order-md-1" data-aos="fade-right">
-          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-cozy-winter-home-decor.html" class="d-block overflow-hidden">
-              <img src="images/winter_decor_hero_living_room.jpg" alt="Cozy winter home styling on a budget India" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Article 2: Budget Room Decor -->
-      <div class="row g-4 align-items-center mt-4" style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 40px;">
+      <!-- Article 3: Sunday Samosa -->
+      <div class="row g-4 align-items-center" >
         <div class="col-md-6" data-aos="fade-right">
           <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-budget-room-decor.html" class="d-block overflow-hidden">
-              <img src="images/budget_room_hero.jpg" alt="Aesthetic budget room decor under Rs 5000 India" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            <a href="article-sunday-samosa-memory.html" class="d-block overflow-hidden">
+              <img src="images/journal_samosa_hero.jpg" alt="Golden crispy samosas and tea on wooden table" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
             </a>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-left">
           <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Home &amp; Decor &bull; Budget Decor</span>
-            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">How to Make Your Room Look Aesthetic on a Budget (Under Rs 5000)</h3>
-            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Real budget room decor ideas that actually work in Indian homes — lighting, plants, wall art, textiles, scent, and more. No expensive furniture, no contractors, no chaos.</p>
+            <span class="editorial-caps-label text-primary mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Stories &bull; Nostalgic Essay</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Great Sunday Samosa Incident of the 90s</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A hilarious 90s childhood story: when mobile phones didn't exist, fast food was a rare treat, and a brother who forgot the samosas and only cared about lunch.</p>
             <div class="mb-3">
-              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 10 min read</span>
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 9 min read &bull; 90s Nostalgia</span>
             </div>
             <div class="d-flex flex-wrap gap-2">
-              <a href="article-budget-room-decor.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+              <a href="article-sunday-samosa-memory.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
                 Read in English <i class="fas fa-arrow-right ms-1"></i>
               </a>
-              <a href="article-budget-room-decor-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+              <a href="article-sunday-samosa-memory-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
                 🇮🇳 हिंदी में पढ़ें
               </a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Article 3: Balcony Chai Corner -->
-      <div class="row g-4 align-items-center mt-4" style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 40px;">
-        <div class="col-md-6 order-md-2" data-aos="fade-left">
-          <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-danger mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;"><i class="fas fa-couch me-1"></i> Newest Guide &bull; Home &amp; Decor</span>
-            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Balcony Chai Corner: Reclaiming Your 4x6 Sanctuary for Under ₹1,500</h3>
-            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A humorous, lighthearted guide on evicting drying racks, negotiating with neighborhood pigeons, and setting up cozy low floor seating with hardy plants and warm fairy lights.</p>
-            <div class="mb-3">
-              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 10 min read &bull; Oct 2026</span>
-            </div>
-            <div class="d-flex flex-wrap gap-2">
-              <a href="article-budget-balcony-chai-corner.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
-                Read in English <i class="fas fa-arrow-right ms-1"></i>
-              </a>
-              <a href="article-budget-balcony-chai-corner-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
-                🇮🇳 हिंदी में पढ़ें
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 order-md-1" data-aos="fade-right">
-          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-budget-balcony-chai-corner.html" class="d-block overflow-hidden">
-              <img src="images/balcony_chai_hero.jpg" alt="Aesthetic small balcony chai corner under Rs 1500" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
-            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PILLAR 4: TRAVEL & STORIES -->
+  <!-- PILLAR 4: SLOW LIVING & MINDFUL HABITS -->
+  <section id="lifestyle" class="section-padding explore-item-section" data-category="lifestyle">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-leaf text-success me-1"></i> Pillar 4</span>
+        <h2 class="heading">Slow Living &amp; Mindful Habits</h2>
+        <p class="section-sub">A study in balanced living, daily rituals, slow fashion, and intentional choices.</p>
+      </div>
+      <!-- Article 0: Effortless Festive Wardrobe -->
+      <div class="row g-4 align-items-center mb-5 pb-4" style="border-bottom: 1px solid rgba(0,0,0,0.06);">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
+            <a href="article-effortless-festive-wardrobe.html" class="d-block overflow-hidden">
+              <img src="images/festive_wardrobe_hero.jpg" alt="Vintage silk dupatta, ivory kurta, mogra gajra, and glowing brass diyas" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="p-4 p-lg-5 bg-light h-100">
+            <span class="editorial-caps-label text-success mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Lifestyle &bull; Everyday Style &bull; Mindful Living</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">Diwali Styling Guide: How to Look Festive & Elegant Without Buying New Clothes</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A practical, honest Diwali styling guide by Gurdeep Sidhu on restyling what you already own, raiding Mom's vintage almirah, and 4 simple formulas to look stunning for every age and body type.</p>
+            <div class="mb-3">
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 11 min read</span>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="article-effortless-festive-wardrobe.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+                Read in English <i class="fas fa-arrow-right ms-1"></i>
+              </a>
+              <a href="article-effortless-festive-wardrobe-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+                🇮🇳 हिंदी में पढ़ें
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article 1: Slow Morning -->
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6 order-md-2" data-aos="fade-left">
+          <div class="p-4 p-lg-5 bg-light h-100">
+            <span class="editorial-caps-label text-success mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Lifestyle &bull; Mindful Living</span>
+            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Slow Morning Ritual: How 30 Intentional Minutes Can Transform Your Day</h3>
+            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">Swap immediate phone notifications for morning stillness, warm tea, and quiet reflection. A gentle 30-minute framework for mental clarity and grounded daily focus.</p>
+            <div class="mb-3">
+              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 8 min read</span>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="article-slow-morning-ritual.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
+                Read in English <i class="fas fa-arrow-right ms-1"></i>
+              </a>
+              <a href="article-slow-morning-ritual-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
+                🇮🇳 हिंदी में पढ़ें
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1" data-aos="fade-right">
+          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
+            <a href="article-slow-morning-ritual.html" class="d-block overflow-hidden">
+              <img src="images/lifestyle_hero_morning.jpg" alt="Aesthetic slow morning tea ritual with journal and warm sunlight" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </section>
+
+  
+  <!-- PILLAR 5: TRAVEL & ESCAPES -->
   <section id="travel" class="section-padding explore-item-section" data-category="travel" style="background: var(--white); border-top: 1px solid rgba(0,0,0,.05);">
     <div class="container">
       <div class="section-header" data-aos="fade-up">
-        <span class="section-tag"><i class="fas fa-compass text-info me-1"></i> Pillar 4</span>
-        <h2 class="heading">Travel &amp; Stories</h2>
-        <p class="section-sub">Journeys near and far, visual diaries, and childhood memories.</p>
+        <span class="section-tag"><i class="fas fa-compass text-info me-1"></i> Pillar 5</span>
+        <h2 class="heading">Travel &amp; Escapes</h2>
+        <p class="section-sub">Realistic budget travel guides, scenic mountain escapes, and road trip journals.</p>
       </div>
 
             <!-- Article 1: Udaipur on a Budget -->
@@ -571,38 +645,11 @@
         </div>
       </div>
 
-      <!-- Article 3: Sunday Samosa -->
-      <div class="row g-4 align-items-center" style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 40px;">
-        <div class="col-md-6" data-aos="fade-right">
-          <div class="gallery-item overflow-hidden p-0 h-100 text-center shadow-sm">
-            <a href="article-sunday-samosa-memory.html" class="d-block overflow-hidden">
-              <img src="images/journal_samosa_hero.jpg" alt="Golden crispy samosas and tea on wooden table" class="img-fluid w-100" style="aspect-ratio: 16/10; object-fit: cover; transition: transform 0.6s ease;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6" data-aos="fade-left">
-          <div class="p-4 p-lg-5 bg-light h-100">
-            <span class="editorial-caps-label text-info mb-2 d-block" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;">Stories &bull; Nostalgic Essay</span>
-            <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 500; color: var(--primary); margin-bottom: 12px;">The Great Sunday Samosa Incident of the 90s</h3>
-            <p class="text-muted" style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">A hilarious 90s childhood story: when mobile phones didn't exist, fast food was a rare treat, and a brother who forgot the samosas and only cared about lunch.</p>
-            <div class="mb-3">
-              <span class="small text-muted" style="font-family:'Plus Jakarta Sans', sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px;"><i class="fas fa-clock me-1"></i> 9 min read &bull; 90s Nostalgia</span>
-            </div>
-            <div class="d-flex flex-wrap gap-2">
-              <a href="article-sunday-samosa-memory.html" class="btn btn-green btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;">
-                Read in English <i class="fas fa-arrow-right ms-1"></i>
-              </a>
-              <a href="article-sunday-samosa-memory-hi.html" class="btn btn-outline-primary btn-sm" style="padding: 10px 20px; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Plus Jakarta Sans', sans-serif;">
-                🇮🇳 हिंदी में पढ़ें
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
   </section>
 
-  <!-- FOOTER -->
+  
+<!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">

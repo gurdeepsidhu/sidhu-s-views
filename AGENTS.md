@@ -46,8 +46,8 @@ Sidhu's Views is an aesthetic, personal online magazine exploring slow living, b
 ### 6. Social Media Syndication & Audience Outreach Standard
 - **Central Record (`SOCIAL_TRACKER.md`)**: Maintain `SOCIAL_TRACKER.md` as the single source of truth for all external posts across:
   - **Medium**: `@gurdeepsidhu171` (`https://medium.com/@gurdeepsidhu171`)
-  - **Reddit**: `u/Ok_Fold_613` (`https://www.reddit.com/user/Ok_Fold_613/`)
-  - **Threads**: `@gurdeepsidhu171` (`https://www.threads.net/@gurdeepsidhu171`)
+  - **Reddit**: `u/Successful_Offer_230` (`https://www.reddit.com/user/Successful_Offer_230/`) (Connected to `sidhusviews` Gmail; formerly `u/Ok_Fold_613`)
+  - **Threads**: `@gurdeep.6303` (`https://www.threads.com/@gurdeep.6303`) (also `@gurdeepsidhu171`)
   - **Pinterest**: `gurdeepsidhu171` (`https://in.pinterest.com/gurdeepsidhu171/`)
 - Whenever the user asks what has been posted, consult `SOCIAL_TRACKER.md` and report the exact status and links.
 - **Mandatory Post-Publication Reminder**: After writing and publishing ANY new article or topic on the website, ALWAYS actively remind Gurdeep to share it on social media to build readership. Never finish an article turn without providing ready-to-copy-paste promotional snippets tailored for:

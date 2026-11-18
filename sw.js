@@ -5,6 +5,8 @@ const urlsToCache = [
   "about.html",
   "explore.html",
   "journal.html",
+  "article-modern-vs-traditional-indian-home-hi.html",
+  "article-modern-vs-traditional-indian-home.html",
   "article-cozy-winter-home-decor-hi.html",
   "article-cozy-winter-home-decor.html",
   "article-udaipur-budget-travel-guide-hi.html",

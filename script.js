@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const hashParam = window.location.hash.replace('#', '');
   const targetCat = catParam || hashParam;
 
-  if (targetCat && ['lifestyle', 'crafts', 'decor', 'travel', 'stories', 'all'].includes(targetCat)) {
+  if (targetCat && ['lifestyle', 'crafts', 'decor', 'travel', 'journal', 'stories', 'all'].includes(targetCat)) {
     filterExplore(targetCat);
     setTimeout(function() {
       const targetSec = document.getElementById(targetCat) || document.getElementById('categoryFilters');
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // 8. CATEGORY FILTERING FOR EXPLORE PAGE
 function filterExplore(category) {
   // Normalize category name
-  if (category === 'stories') category = 'travel';
+  if (category === 'stories') category = 'journal';
 
   // Update active state on button group
   const filterButtons = document.querySelectorAll('#categoryFilters button');
