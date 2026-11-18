@@ -225,10 +225,17 @@ def update_sw_cache(data):
         content
     )
 
+    # Bump cache version if modified or on demand
+    def bump_cache_ver(m):
+        prefix = m.group(1)
+        ver = int(m.group(2))
+        return f'{prefix}{ver + 1}"'
+
     if new_content != content:
+        new_content = re.sub(r'(const CACHE_NAME = "sidhus-views-cache-v)(\d+)"', bump_cache_ver, new_content)
         with open(SW_PATH, "w", encoding="utf-8") as f:
             f.write(new_content)
-        print("✓ Updated sw.js caching list with all registered articles.")
+        print("✓ Updated sw.js caching list and bumped cache version.")
 
 
 def update_rss(data):
