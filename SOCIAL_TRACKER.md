@@ -38,7 +38,7 @@ Whenever an article is published or shared, this file is updated immediately.
 
 ### 18 November 2026
 1. **Website Publication & Core Architecture Upgrade**:
-   - ✅ Published synchronized bilingual pair: *So-Called "Modern" vs Traditional Indian Home: Why We Turned Our Homes Into Museums (And How to Bring Real Warmth Back for ₹0)* (`article-modern-vs-traditional-indian-home.html` & `article-modern-vs-traditional-indian-home-hi.html`).
+   - ✅ Published synchronized bilingual pair: *The Soulful Indian Home: Practical Decor Ideas, Handcrafted Warmth & Zero-Waste Charm* (`article-modern-vs-traditional-indian-home.html` & `article-modern-vs-traditional-indian-home-hi.html`). Includes Malgudi-style observational humor, 11 zero-waste & budget-friendly practical Indian styling ideas, Western climate vs. Indian reality analysis, and Raw Cotton natural textures integration.
    - ✅ Complete 5-Pillar Category Architecture Upgrade implemented across `articles.json`, `explore.html`, `journal.html`, `index.html`, and `script.js` (Home & Decor, Handmade & Crafts, Journal & Nostalgia, Slow Living & Habits, Travel & Escapes).
    - ✅ Validation passed with 0 errors across 4 pages and 28 articles (32 URLs in sitemap).
 
