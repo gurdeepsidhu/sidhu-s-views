@@ -83,7 +83,7 @@
   </div>
 
   <!-- NAVBAR -->
-  <nav id="navbar" class="navbar navbar-expand-lg">
+  <nav id="navbar" class="navbar navbar-expand-md">
     <div class="container">
       <a class="logo navbar-brand" href="index.html">
         <i class="fas fa-feather-alt"></i> SIDHU'S VIEWS
@@ -124,8 +124,8 @@
   <section class="section-padding bg-light text-center" style="border-bottom: 1px solid rgba(197, 168, 128, 0.25);">
     <div class="container py-4">
       <span class="section-tag" style="letter-spacing: 3px; font-size: 10px;">Personal Essays &amp; Reflections</span>
-      <h1 class="hero-title" style="font-size: 42px; font-weight: 500; margin-top: 8px;">The Journal</h1>
-      <p class="hero-sub mx-auto" style="max-width: 650px;">
+      <h1 class="hero-title" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(36px, 5vw, 52px); font-weight: 600; color: var(--primary); margin-top: 8px;">The Journal</h1>
+      <p class="hero-sub mx-auto" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15.5px; line-height: 1.75; max-width: 650px; color: #4b5563;">
         A space for slow reflections, childhood nostalgia, mindful living notes, and personal observations on everyday beauty by Gurdeep Sidhu.
       </p>
       
@@ -556,10 +556,14 @@
         const cat = sec.getAttribute('data-category') || '';
         if (category === 'all' || cat.includes(category)) {
           sec.style.display = 'block';
+          sec.querySelectorAll('[data-aos]').forEach(el => el.classList.add('aos-animate'));
         } else {
           sec.style.display = 'none';
         }
       });
+      if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+      }
     }
 
     function checkHash() {

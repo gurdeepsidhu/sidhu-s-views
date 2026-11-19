@@ -86,7 +86,7 @@
   </div>
 
   <!-- NAVBAR -->
-  <nav id="navbar" class="navbar navbar-expand-lg">
+  <nav id="navbar" class="navbar navbar-expand-md">
     <div class="container">
       <a class="logo navbar-brand" href="index.html">
         <i class="fas fa-feather-alt"></i> SIDHU'S VIEWS
@@ -132,12 +132,20 @@
       
       <!-- Discovery Controls (Search & Filters) -->
       <div class="row justify-content-center mt-4">
-        <div class="col-md-6">
-          <div class="input-group" style="background: var(--white);">
+        <div class="col-md-7 col-lg-6">
+          <div class="input-group search-bar-container">
             <span class="input-group-text bg-transparent border-end-0"><i class="fas fa-search text-muted"></i></span>
-            <input type="text" id="searchInput" class="form-control bg-transparent border-start-0" placeholder="Search articles by keyword..." onkeyup="searchArticles()" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; outline: none;">
+            <input type="text" id="searchInput" class="form-control bg-transparent border-start-0" placeholder="Search articles by keyword or topic..." onkeyup="searchArticles()" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; outline: none;">
           </div>
         </div>
+      </div>
+
+      <!-- NO RESULTS SEARCH FEEDBACK -->
+      <div id="noResultsMessage" class="text-center py-5 my-3" style="display: none;">
+        <i class="fas fa-feather-alt text-muted mb-3" style="font-size: 34px;"></i>
+        <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--primary);">No articles found</h3>
+        <p class="text-muted small mx-auto" style="max-width: 500px;">We couldn't find any articles matching "<span id="searchQueryTerm" class="fw-bold"></span>". Try another keyword or explore our main categories below.</p>
+        <button class="btn btn-sm btn-outline-primary mt-2" onclick="clearSearch()"><i class="fas fa-undo me-1"></i> View All Articles</button>
       </div>
 
       <!-- CATEGORY QUICK DIRECTORY GRID -->
