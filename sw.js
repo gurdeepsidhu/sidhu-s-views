@@ -1,10 +1,14 @@
-const CACHE_NAME = "sidhus-views-cache-v13";
+const CACHE_NAME = "sidhus-views-cache-v14";
 const urlsToCache = [
   "./",
   "index.html",
   "about.html",
   "explore.html",
   "journal.html",
+  "creative-writing.html",
+  "creative-writing-hindi-poetry.html",
+  "poem-shilpkar-aur-pashan.html",
+  "images/sculpture_watermark.jpg",
   "article-modern-vs-traditional-indian-home-hi.html",
   "article-modern-vs-traditional-indian-home.html",
   "article-cozy-winter-home-decor-hi.html",
