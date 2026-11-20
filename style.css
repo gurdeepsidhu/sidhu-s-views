@@ -904,6 +904,37 @@ body.dark-mode .category-pillar-desc {
   padding: clamp(28px, 5vw, 55px) clamp(22px, 6vw, 60px);
   box-shadow: var(--shadow-sm);
   margin: 30px auto 40px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.poem-box.with-statue-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/sculpture_watermark.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: min(650px, 90%);
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: 0;
+  filter: grayscale(100%) contrast(115%);
+  transition: opacity 0.3s ease;
+}
+
+body.dark-mode .poem-box.with-statue-bg::before {
+  opacity: 0.09;
+  filter: grayscale(100%) invert(100%) contrast(110%);
+}
+
+.poem-box.with-statue-bg .poem-body-hindi {
+  position: relative;
+  z-index: 2;
 }
 
 body.dark-mode .poem-box {
