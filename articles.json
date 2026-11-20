@@ -42,6 +42,33 @@
       "priority": "0.8",
       "lastmod": "2026-10-14",
       "indexable": true
+    },
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/creative-writing.html",
+      "file": "creative-writing.html",
+      "title": "Creative Writing: Poetry, Stories & Reflections | Sidhu's Views",
+      "changefreq": "weekly",
+      "priority": "0.9",
+      "lastmod": "2026-11-20",
+      "indexable": true
+    },
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/creative-writing-hindi-poetry.html",
+      "file": "creative-writing-hindi-poetry.html",
+      "title": "हिंदी कविता संग्रह (Hindi Poetry) | Sidhu's Views",
+      "changefreq": "weekly",
+      "priority": "0.9",
+      "lastmod": "2026-11-20",
+      "indexable": true
+    },
+    {
+      "url": "https://gurdeepsidhu.github.io/sidhu-s-views/poem-shilpkar-aur-pashan.html",
+      "file": "poem-shilpkar-aur-pashan.html",
+      "title": "शिल्पकार और पाषाण — गुरदीप सिधू की एक मर्मस्पर्शी हिंदी कविता | Sidhu's Views",
+      "changefreq": "monthly",
+      "priority": "0.9",
+      "lastmod": "2026-11-20",
+      "indexable": true
     }
   ],
   "articles": [
